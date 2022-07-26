@@ -1,0 +1,3851 @@
+using System;
+class Jain
+{
+    static void Main()
+    {
+        //C# Arithmetic opt
+        int result;
+        int x = 20, y = 10;
+        result = (x + y);
+        Console.WriteLine("Addition opt:" + result);
+        result = (x - y);
+        Console.WriteLine("Subtract opt:" + result);
+        result = (x * y);
+        Console.WriteLine("Mul opt:" + result);
+        result = (x / y);
+        Console.WriteLine("div opt:" + result);
+        result = (x % y);
+        Console.WriteLine("Modulo opt:" + result);
+        Console.ReadLine();
+    }
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+using System;
+class Jain
+{
+    static void Main()
+    {
+        //input values from keyboard
+        Console.WriteLine("Input all the vlaues....");
+        string name = Console.ReadLine();
+        int age = int.Parse(Console.ReadLine());
+        int a = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Name:" + name);
+        Console.WriteLine("Age:" + age);
+        Console.WriteLine("A value:" + a);
+        Console.ReadLine();
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+
+
+class Jain
+{
+    static void Main()
+    {
+        //Example Try parse
+        try
+        {
+            string value = "9999";
+            int numeric;
+            bool isTrue = int.TryParse(value, out numeric);
+            if (isTrue)
+                Console.WriteLine("The integer value is:" + numeric);
+        }
+        catch(FormatException e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        Console.ReadLine();
+    }
+/////////////////////////////////////////////////////////////////////////////////////////
+
+class Jain
+{
+    static void Main()
+    {
+        string str = "999";
+        int intStr;
+        bool intResultTryPrase = int.TryParse(str, out intStr);
+        if (intResultTryPrase == true)
+        {
+            Console.WriteLine(intStr);
+        }
+        else
+        {
+            Console.WriteLine("input is not a integer vlaue.........");
+        }
+        Console.ReadLine();
+    }
+    
+       
+    
+}
+
+
+///////////////////////////////////////////////////////////////////////
+class Jain
+{
+    static void Main()
+    {
+        string name = "100";
+        int myInt = Int32.Parse(name);
+        Console.WriteLine(name);
+        Console.WriteLine(myInt);
+        Console.ReadLine();
+    }
+
+/////////////////////////////////////////////////////////////////////////
+
+
+
+class Jain
+{
+    static void Main()
+    {
+        int val = 2022;
+        //Boxing
+        object obj = val;
+        //change the value of val
+        val = 2000;
+        Console.WriteLine("value type:{0}", val);
+        Console.WriteLine("object type:{0}", obj);
+        Console.ReadLine();
+    }
+
+///////////////////////////////////////////////////////////////////
+
+				if statement exp
+using System;
+
+class venk
+{
+    static void Main()
+    {
+        Console.WriteLine("Enter the age");
+        int age = int.Parse(Console.ReadLine());
+        if (age > 18)
+        {
+            Console.WriteLine("Person able for higher study...");
+        }
+        Console.ReadLine();
+            
+
+
+    }
+}
+//////////////////////////////////////////////////////////////////
+
+ int x = 20, y = 100;
+        if (x >= 20)
+        {
+            Console.WriteLine("x is greater than 10");
+        }
+        if (y <= 5)
+        {
+            Console.WriteLine("Y is less than or equal to 5");
+        }
+        Console.ReadLine();
+
+////////////////////////////////////////////////////////////////////////
+ Console.WriteLine("Enter the Age:");
+        int age = int.Parse(Console.ReadLine());
+        if (age > 18)
+        {
+            Console.WriteLine("Person able for higher study........");
+        }
+        else
+        {
+            Console.WriteLine("Person is able for higher study...");
+        }
+        Console.ReadLine();
+////////////////////////////////////////////////////////////////////////
+class venk
+{
+    static void Main()
+    {
+        //input age
+        int age = 0;
+        Console.WriteLine("Enter the age:");
+        age = Convert.ToInt32(Console.ReadLine());
+        //checking condition
+        if (age >= 13 && age <= 19)
+            Console.WriteLine("{0} is teenager", age);
+        else
+            Console.WriteLine("{0} is not a teenager", age);
+
+        Console.ReadLine();
+    }
+}
+/////////////////////////////////////////////////////
+static void Main()
+    {
+       int num1 = 4, num2 = 2;
+        if (num1 % num2 == 0)
+        {
+            Console.WriteLine("numer is divisible");
+        }
+        else
+        {
+            Console.WriteLine("number is not divisible");
+        }
+        Console.ReadLine();
+    }
+
+////////////////////////////////////////////////////
+
+static void Main()
+    {
+        //multiple if
+        int x = 5;
+        if (x == 10)
+        {
+            Console.WriteLine("X value eqquals to 10");
+        }
+        else if (x > 10)
+        {
+            Console.WriteLine("X value grater than 10");
+        }
+        else
+        {
+            Console.WriteLine("X value less than 10");
+        }
+
+        Console.ReadLine();
+    }
+}
+
+
+//////////////////////////////////////////////////////////
+
+
+
+static void Main()
+    {
+        // input integer value and check whether it is positive or negative
+        int num;
+        Console.WriteLine("Enter the number");
+        num = Convert.ToInt32(Console.ReadLine());
+        //check the condtion
+        if(num > 0)
+            Console.WriteLine("{0} is a positive number ", num);
+        else if(num < 0)
+            Console.WriteLine("{0} is a negative number ", num);
+        else
+            Console.WriteLine("{0} is a zero ", num);
+
+
+        Console.ReadLine();
+    }
+}
+/////////////////////////////////////////////////////////////////////////
+
+ static void Main()
+    {
+        int x = 5, y = 20;
+        if(x > y)
+        {
+            if (x >= 10)
+            {
+                Console.WriteLine("x value greater than or equal to 10");
+
+            }
+            else
+            {
+                Console.WriteLine("x value is less than 10");
+            }
+        }
+        else
+        {
+            if (x <= 20)
+            {
+                Console.WriteLine("y value less than or equal to 20");
+            }
+            else
+            {
+                Console.WriteLine("y value greater than 20");
+            }
+            Console.ReadLine();
+        }
+
+      
+    }
+}
+////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+static void Main()
+    {
+        char ch;
+        Console.WriteLine("Enter a char:");
+        ch = Console.ReadLine()[0];
+        //check  ch is an alpha or not
+        if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
+        {
+            Console.WriteLine("{0} is valid alphabets", ch);
+            //now Iam checking  vowel or constonet
+            if (ch == 'A' || ch == 'a' || ch == 'E' || ch == 'e' || ch == 'I' || ch == 'i' || ch == 'O' || ch == 'o' || ch == 'U' || ch == 'u')
+            {
+                Console.WriteLine("{0} is vowels", ch);
+            }
+            else
+            {
+                Console.WriteLine("{0} is a consonant", ch);
+            }
+        }
+        else
+        {
+            Console.WriteLine("{0} is not a valid alphabets", ch);
+        }
+        Console.ReadLine();
+    }//////////////////////////////////////////////////////////////////////////////////////////
+static void Main()
+    {
+        int x = 30;
+        switch (x)
+        {
+            case 10:
+                Console.WriteLine("x value is 10");
+                break;
+                case 20:
+                Console.WriteLine("x value is 20");
+                break ;
+                default:
+                Console.WriteLine("Not Know values...");
+                break;
+
+        }
+        Console.ReadLine();
+    }
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+static void Main()
+    {
+        int x = 5, y = 20;
+        string result;
+        //ternery opt
+        result = (x > y) ? "x value greater than y" : "x is less than y";
+        Console.WriteLine(result);
+
+        Console.ReadLine();
+    }
+////////////////////////////////////////////////////////////////////////**************************
+
+
+        // variable declaration
+        int n1 = 5, n2 = 10,
+            n3 = 15, n4 = 20, max;
+
+        // Largest among n1 and n2
+        max = (n1 > n2 && n1 > n2 && n1 > n2) ?
+                    n1 : (n2 > n3 && n2 > n4) ?
+                               n2 : (n3 > n4) ? n3 : n4;
+
+        // Print the largest number
+        Console.WriteLine("Largest number among " +
+                            n1 + ", " + n2 + ", " +
+                                n3 + " and " + n4 +
+                                     " is " + max);
+        Console.ReadLine();
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+for loop=====
+
+class venk
+{
+    static void Main()
+    {
+        for(int i =1; i <= 4; i++)
+        {
+            Console.WriteLine(i);
+        }
+        Console.ReadLine();
+    }
+}
+ ////////////////////////////////////////////////////////////////////////////////
+
+   class venk
+{
+    static void Main()
+    {
+        for(int i =1,j = 0; i <= 4; i++,j++)
+        {
+            Console.WriteLine("i value : {0},j {1}", i,j);
+        }
+        Console.ReadLine();
+    }
+}
+//////////////////////////////////////////////////////////////
+
+WHILE LOOP
+class venk
+{
+    static void Main()
+    {
+        int i = 1;
+        while(i<=5)
+        {
+            Console.WriteLine(i);
+            i++;
+        }
+        Console.ReadLine();
+    }
+}
+    
+(do while)
+
+
+    static void Main()
+    {
+        int i = 1;
+        do
+        {
+            Console.WriteLine(i);
+            i++;
+        }
+        while (i >= 5);
+        Console.ReadLine();
+
+    }
+///////////////////////////////////////////////////////////////////
+break continue
+
+static void Main()
+    {
+        for (int i = 1; i <= 10; i++)
+        {
+            if (i == 5)
+                 //break;
+               continue;
+            Console.WriteLine(i);
+        }
+        Console.ReadLine();
+    }
+//////////////////////////////////////
+
+array 
+
+class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] array = new int[5] { 5, 6, 4, 7, 8 };
+
+            Console.Write(array[0]);
+            Console.ReadLine();
+        }
+    }
+}
+////////////////////////////////////////////////////////
+
+class Jain
+{
+    public static void Main()
+    {
+        //another example Dec and initialized
+        int[] age = new int[5] { 22, 33, 44, 55, 66 };
+        Console.WriteLine(age[0]);
+        Console.WriteLine(age[1]);//accesing using index value
+        Console.ReadLine();
+    }
+}
+///////////////////////////////////////////////////
+
+class Jain
+{
+    public static void Main()
+    {
+        //dec and initializes
+        int[] age = new int[5] { 22, 33, 44, 55, 66 };
+        for (int i = 0; i < age.Length; i++)
+        Console.WriteLine(age[i]);  
+         
+    }
+}
+///////////////////////////////////////////////////
+
+using System;
+class Jain
+{
+   public static void Main()
+    {
+        int i, n;
+        int[] a = new int[100];
+        Console.Write("\n Read n number of element:");
+        Console.Write("\n -------------------------------------");
+        Console.Write("Input the number of elemnet to store the array:");
+        n = Convert.ToInt32(Console.ReadLine());
+        //Read element
+        Console.Write("Input {0} number of elemnet in the array:\n", n);
+        for( i = 0; i < n; i++)
+        {
+            Console.Write("Eleemnt -{0}", i);
+            a[i] = Convert.ToInt32(Console.ReadLine());
+        }
+        //Print the element
+        Console.WriteLine("Values stored.....");
+        for (i = 0; i < n; i++)
+        {
+            Console.Write("{0}", a[i]);
+        }
+            Console.ReadLine();
+    }
+}
+/////////////////////////////////////////////////////////
+ assending  & sorting
+
+using System;
+class Jain
+{
+   public static void Main()
+    {
+        //Sorting : Data strucutre in C++
+        int[] arr = new int[5] { 1, 4, 2, 3, 5 };
+        Console.WriteLine("Actual elements");
+        foreach(var i in arr)
+        {
+            Console.WriteLine(i);
+        }
+        //sortig method
+        Array.Sort(arr);
+        Console.WriteLine("Eleemnt after Sort...");
+        foreach(var i in arr)
+        {
+            Console.WriteLine(i);
+        }
+        //reverse : descending order
+        Array.Reverse(arr);
+        Console.WriteLine("Eleemnt after Reverse...");
+        foreach (var i in arr)
+        {
+            Console.WriteLine(i);
+        }
+        Console.ReadLine();
+    }
+}
+
+/////////////////////////////////////////  2D
+
+using System;
+class Jain
+{
+   public static void Main()
+    {
+        //dec and ini 2D
+        int[,] arr = { { 1, 2, 4 }, { 2, 4, 6 }, { 4, 8, 12 } };
+        //fetch it
+        for(int i = 0; i < 3; i++)
+        {
+            for(int j = 0; j < 3; j++)
+            {
+                Console.WriteLine(arr[i, j] + " ");
+            }
+        }
+        Console.ReadLine();
+    }
+}
+/////////////////////////////////////////
+
+MATRIX EXAMPLE
+
+using System;
+class Jain
+{
+    public static void Main()
+    {
+        int i = 0;
+        int j = 0;
+        int row = 2;
+        int col = 2;
+        int[,] Matrix1 = new int[row, col];
+        int[,] Matrix2 = new int[row, col];
+        int[,] Matrix3 = new int[row, col];
+        //enter the elemnt for matrix 1 and 2
+        for (i = 0; i < row; i++)
+        {
+            for (j = 0; j < col; j++)
+            {
+                Matrix1[i, j] = Int32.Parse(Console.ReadLine());
+            }
+        }
+        //enter the elemnt 2nd matrix
+        //enter the elemnt for matrix 1 and 2
+        for (i = 0; i < row; i++)
+        {
+            for (j = 0; j < col; j++)
+            {
+                Matrix2[i, j] = Int32.Parse(Console.ReadLine());
+            }
+        }
+        //read and sum the matrix
+        for (i = 0; i < row; i++)
+        {
+            for (j = 0; j < col; j++)
+            {
+                Matrix3[i, j] = Matrix1[i, j] + Matrix2[i,j];
+
+     }
+        }
+        //Print  both marix
+        //print the sum of matrix1 and 2
+        Console.WriteLine("Addion of Matrix1 and matrix 2:");
+        for (i = 0; i < row; i++)
+        {
+            for (j = 0; j < col; j++)
+            {
+                Console.WriteLine(Matrix3[i, j] + "\t ");
+            }
+        }
+        Console.ReadLine();
+    }
+}
+///////////////////////////////////////////////////
+
+collection array list
+
+
+using System;
+using System.Collections;
+class Jain
+{
+    public static void Main()
+    {
+        ArrayList a = new ArrayList();
+        a.Add("venkatesh");
+        a.Add("warke");
+        a.Add("9797251929");
+        // fetching it 
+        foreach(var i in a)
+        {
+            Console.WriteLine(i);
+        }
+        Console.ReadLine();
+    }
+}
+////////////////////////////////////////////////////
+ adding another array in array list
+
+using System;
+using System.Collections;
+class Jain
+{
+    public static void Main()
+    {
+        ArrayList a = new ArrayList();
+        a.Add("venkatesh");
+        a.Add("warke");
+        a.Add("9797251929");
+        // creating another list
+        ArrayList list2 = new ArrayList() { 7, "niki" };
+        // adding list2 in list
+        a.AddRange(list2);
+        //fetch
+        foreach(var i in a)
+        {
+            Console.WriteLine(i);
+        }
+        Console.ReadLine();
+    }
+}
+////////////////////////////////////////////////////
+using insert command, and insert range
+
+using System;
+using System.Collections;
+class Jain
+{
+    public static void Main()
+    {
+        ArrayList a = new ArrayList();
+        a.Add("Sci");
+        a.Add("java");
+        a.Add(30);
+        //inserting element in list
+        a.Insert(1, "Subhash");
+        a.Insert(2, "Python");
+        //insert Ragne
+        ArrayList list2 = new ArrayList() { 200, "India" };
+        a.InsertRange(0, list2);
+        //fetch
+        foreach(var i in a)
+        {
+            Console.WriteLine(i);
+        }
+               
+        Console.ReadLine();
+    }
+}
+////////////////////////////////////////////////
+
+remove, removerange
+
+using System;
+using System.Collections;
+class Jain
+{
+    public static void Main()
+    {
+        ArrayList a = new ArrayList();
+        a.Add("Sci");
+        a.Add("java");
+        a.Add(30);
+        a.Add("phyton");
+
+        // remove single
+        a.RemoveAt(0);
+        //remove to range
+        a.RemoveRange(1,2);
+
+        //fetch
+        foreach (var i in a)
+        {
+            Console.WriteLine(i);
+        }
+
+        Console.ReadLine();
+    }
+}
+//////////////////////////////////////////
+generic type of collection
+
+using System;
+using System.Collections.Generic;
+class Jain
+{
+    public static void Main()
+    {
+        //dec list
+        List<int> a = new List<int>();
+        a.Add(100);
+        a.Add(20);
+        a.Add(30);
+        a.Add(40);
+        //string 
+        List<string> names = new List<string>();
+        names.Add("Nazrana");
+        names.Add("Indrajit");
+        names.Add("Priynka");
+        //dec and ini
+        var food = new List<string>() { "Sweets", "idli", "Dosha", "rosgulla" };
+        //fetch
+        foreach (var i in a)
+        {
+            Console.WriteLine(i);
+        }
+
+        //string fethc
+        foreach (var j in names)
+        {
+            Console.WriteLine(j);
+            // food
+            foreach (var f in food)
+            {
+                Console.WriteLine(f);
+            }
+        }
+        Console.ReadLine();
+    }
+}
+
+////////////////////////////////////////////
+
+hashset
+
+
+using System;
+using System.Collections.Generic;
+class Jain
+{
+    public static void Main()
+    {
+        HashSet<string> names = new HashSet<string>();
+       // var name = new HashSet<string>();
+        names.Add("soni");
+        names.Add("Ahmed");
+        names.Add("Bill gates");
+        names.Add("soni");
+        //will not added duplicate one
+        //fetch
+        foreach(var i in names)
+        {
+            Console.WriteLine(i);
+        }
+               
+      
+        Console.ReadLine();
+    }
+}
+
+///////////////////////////////////////////////////////
+
+hash table
+
+using System;
+using System.Collections;
+class Jain
+{
+    public static void Main()
+    {
+        Hashtable names = new Hashtable();
+        names.Add("id", "1001");
+        names.Add("name", "Priyanka");
+        names.Add("msg", "Welcome");
+        names.Add("compnay", "www.mphasis.com"); 
+        //fetch the value of  hashtable
+        foreach(DictionaryEntry i in names)
+        {
+            Console.WriteLine("Key={0}, Value={1}", i.Key,i.Value);
+        }
+               
+      
+        Console.ReadLine();
+    }
+}
+////////////////////////////////////////////////////
+
+
+Sortedset
+using System;
+using System.Collections.Generic;
+class Jain
+{
+    public static void Main()
+    {
+        var names = new SortedSet<string>();
+        names.Add("soni");
+        names.Add("welcome");
+        names.Add("Google");
+        names.Add("priyanka");
+        names.Add("Google");
+        //fetch
+        foreach(var i in names)
+        {
+            Console.WriteLine(i);
+        }
+               
+      
+        Console.ReadLine();
+    }
+}
+
+///////////////////////////////////////////////////////////////
+
+stack- push,pop,peek
+
+using System;
+using System.Collections.Generic;
+class Jain
+{
+    public static void Main()
+    {
+        Stack<string> names = new Stack<string>();
+        names.Push("java");
+        names.Push("oracle");
+        names.Push("html");
+        names.Push("c++");
+
+        //fetch
+        foreach(var i in names)
+        {
+            Console.WriteLine(i);
+
+        }
+
+        //fetchh only top element
+        Console.WriteLine("Peek elemnet:" + names.Peek());
+        Console.WriteLine("Delete item :" + names.Pop());
+        Console.WriteLine("After Pop: Peek the elemnet:" + names.Peek());
+
+        Console.ReadLine();
+    }
+}
+
+////////////////////////////////////////////////////////////////////////
+ queue
+
+using System;
+using System.Collections.Generic;
+class Jain
+{
+    public static void Main()
+    {
+        Queue<string> names = new Queue<string>();
+        names.Enqueue("Java");
+        names.Enqueue("Oracle");
+        names.Enqueue("html");
+        names.Enqueue("C++");
+        //fetch
+        foreach(var i in names)
+        {
+            Console.WriteLine(i);
+        }
+        //fetch oly top elemnet
+        Console.WriteLine("Total elemnet:" + names.Count);
+        Console.WriteLine("Peek elemnet:" + names.Peek());
+        Console.WriteLine("Delete item :" + names.Dequeue());
+        Console.WriteLine("After Pop: Peek the elemnet:" + names.Peek());
+      
+        Console.ReadLine();
+    }
+}
+
+//////////////////////////////////////
+
+linklist ,, add, rewmove
+
+using System;
+using System.Collections.Generic;
+class Jain
+{
+    public static void Main()
+    {
+        LinkedList<int> list = new LinkedList<int>();
+        list.AddFirst(1);
+        list.AddFirst(100);
+        list.AddLast(200);
+       
+        //fetch
+        foreach(var i in list)
+        {
+            Console.WriteLine(i);
+        }
+        //remove
+        list.Remove(list.First);
+        Console.WriteLine("========================================");
+        foreach (var i in list)
+        {
+            Console.WriteLine(i);
+        }
+        list.Remove(200);
+        list.RemoveFirst();
+        list.RemoveLast();
+        list.Clear();
+        Console.WriteLine("List of elemnt:" + list.Count);
+        Console.ReadLine();
+    }
+}
+
+////////////////////////////////////////////////////////////////////////
+
+dictionary key value
+
+using System;
+using System.Collections.Generic;
+class Jain
+{
+    public static void Main()
+    {
+        Dictionary<string, string> n = new Dictionary<string, string>();
+        n.Add("1", "Ranjeet");
+        n.Add("2", "hrutiesh");
+        n.Add("3", "Java");
+        //gets value
+        foreach (KeyValuePair<string, string> kv in n)
+        {
+            Console.WriteLine(kv.Key + "  value:" + kv.Value);
+
+        }
+
+        //remove 
+        n.Remove("2");
+        //n.Clear();//clear allthe dictinary value
+        foreach (KeyValuePair<string, string> kv in n)
+        {
+            Console.WriteLine(kv.Key + "  value:" + kv.Value);
+        }
+        Console.ReadLine();
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////
+
+Function (Method)
+
+using System;
+class Samera
+{
+    //dec a method
+    public void show()
+    {
+        Console.WriteLine("Welcome in method in c#");
+    }
+}
+
+class venk
+{
+    static void Main()
+    {
+        //object to call method of samera class
+        Samera s=new Samera();
+        s.show();
+
+        Console.ReadLine();
+        
+    }
+}
+
+//////////////////////////////////////////////////////////////////
+
+method with parameter
+
+using System;
+using System.Collections.Generic;
+class SimpleMath
+{ 
+    public int  AddSum(int  a, int b)
+    {
+        return (a + b);
+    }
+}
+class Jain
+{
+    public static void Main()
+    {
+        //create an obj of Simple math
+        SimpleMath m = new SimpleMath();
+        Console.WriteLine("Sum:{0}", m.AddSum(20, 2));
+        int r = m.AddSum(100, 2);
+        Console.WriteLine("REsutl:" + r);
+        Console.ReadLine();
+    }
+}
+
+////////////////////////////////////////////////////////
+
+
+using System;
+class Program
+{
+    static void Main()
+    {
+        // call your method here
+        Program p = new Program();
+        string res = p.GetUserDetails("Nazrana", 23);
+        Console.WriteLine(res);
+    }
+    public string GetUserDetails(string name, int age)
+    {
+        string info = string.Format("Name:{0}, Age:{1}", name, age);
+        return info;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////
+ static method
+using System;
+public static class Calculator
+{
+    static int result = 0;
+    public static string type = "Arithmetic";
+    public static int Sum(int num1, int num2)
+    {
+        return num1 + num2;
+    }
+    public static void Store(int res)
+    {
+        result = res;
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        var result = Calculator.Sum(10, 20); //calling static metod 
+        Calculator.Store(result);
+        Console.WriteLine(result);
+        var calcType = Calculator.type;
+        Calculator.type = "Scientific";
+    }
+}
+
+
+using System;
+public static class Calculator
+{
+    static int result = 0;
+    public static string type = "Arithmetic";
+    public static int Sum(int num1, int num2)
+    {
+        return num1 + num2;
+    }
+    public static void Store(int res)
+    {
+        result = res;
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        var result = Calculator.Sum(10, 20); //calling static metod 
+        Calculator.Store(result);
+        Console.WriteLine(result);
+        var calcType = Calculator.type;
+        Calculator.type = "Scientific";
+    }
+}
+///////////////////////////////////////////////////////////////////////////
+
+method with no return and para
+
+using System;
+class Program
+    {
+    static void Main()
+    {
+    //call your metod here
+    Details();
+    }
+//method dec
+    public static void Details()
+    {
+    string name="Gagana";
+    int age=21;
+    Console.WriteLine("Name and Age:"+name+" " +age);
+}
+}
+////////////////////////////////////////////////////////////////////////////
+
+pass by value
+
+using System;
+class Program
+{
+    static void Main()
+    {
+        int x = 10;
+        Console.WriteLine("Value before calling :{0}", x);
+        Multi(x);
+        Console.WriteLine("Value after calling the method:{0}", x);
+    }
+    public static void Multi(int a)
+    {
+        a *= a;
+        Console.WriteLine("Value inside a method:{0}", a);
+
+        Console.ReadLine();
+    }
+}
+////////////////////////////////////////////////////////////////////////////////
+
+pass by value
+
+using System;
+class Program
+{
+    static int a = 100;
+    static int b = 200;
+    static void Main()
+    {
+        Console.WriteLine("Before swaping");
+        Console.WriteLine("a is :" + a);
+        Console.WriteLine("b is :" + b);
+        //call your method
+        Myswap(a, b);
+    }
+    //method
+    static void Myswap(int a, int b)
+    {
+        int t;
+        t = a;
+        a = b;
+        b = t;
+        Console.WriteLine("After swaping");
+        Console.WriteLine("a is :" + a);
+        Console.WriteLine("b is :" + b);
+    }
+   
+}
+////////////////////////////////////////////////////////////////////
+
+out parameter
+using System;
+class Program
+{
+    static void Main()
+    {
+        int x;
+        Multi(out x);
+        Console.WriteLine("Value :{0}", x);
+      
+    }
+    public static void Multi(out int a)
+    {
+        a = 10;
+        a += a; //+-/
+        Console.WriteLine("Value inside a method:{0}", a);
+    }
+}
+//////////////////////////////////////////////////////////////////////////
+
+using System;
+struct Item
+{
+    public string name;
+    public int code;
+    public double price;
+}
+class Program
+{
+    static void Main()
+    {
+        //create a member of your strucrure
+        Item f1;
+        f1.name = "TATA Car";
+        f1.code = 101;
+        f1.price = double.Parse(Console.ReadLine());
+        //print all the details
+        Console.WriteLine("Car Name:{0}", f1.name);
+        Console.WriteLine("Id :{0}", f1.code);
+        Console.WriteLine("Car Price:{0}", f1.price);
+    }
+}
+///////////////////////////////////////////////////////////////////////////////
+
+using System;
+struct Person
+{
+    public string name;
+    public string job;
+    public string sal;
+    //method to pass the vlaue
+    public void GetValue(string n, string j, string s)
+    {
+        name = n;
+        job = j;
+        sal = s;
+    }
+    //another method to print details
+    public void Display()
+    {
+        Console.WriteLine("Name:{0},Job :{1}, Salary:{2}", name, job, sal);
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        //crate an obj of struct person
+        Person p = new Person();
+        p.GetValue("Priyanka", "Developer", "50000");
+        p.Display();
+
+        Console.ReadLine(); 
+    }
+}
+///////////////////////////////////////////////////////////////////////////////
+  enum
+using System;
+class Program
+{
+    public enum Days { Sun, Mon, Tue, Wed, Thr, Fri, Sat };
+    static void Main()
+    {
+        //NOW going to traverse 
+        int x = (int)Days.Sun;
+        int y = (int)Days.Mon;
+        int z = (int)Days.Sat;
+        Console.WriteLine("Sun:{0}", x);
+        Console.WriteLine("Mon:{0}", y);
+        Console.WriteLine("Sat:{0}", z);
+
+        Console.ReadLine(); 
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+exception handlingh
+using System;
+class Program
+{
+
+    static void Main()
+    {
+        try
+        {
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int res = a / b;
+            Console.WriteLine("Res:{0}", res);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            Console.WriteLine(ex.Source);
+
+            Console.ReadLine();
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////
+using System;
+class Program
+{
+  
+    static void Main()
+    {
+        try
+        {
+            Details();
+        }
+       catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+      
+    }
+    //method to check manaul execption
+    private static void Details()
+    {
+        string name = "null";
+        if(string.IsNullOrEmpty(name))
+        {
+            throw new NullReferenceException("Name is empty here kinldy put some values...");
+        }
+        else
+        {
+            Console.WriteLine("Name:{0}", name);
+        }
+    }
+}
+/////////////////////////////////////////////////////
+
+custom exception handling
+
+using System;
+public class WrongAgeException:Exception
+{
+    public WrongAgeException(String Msg) : base(Msg) { }
+}
+class Program
+{
+  //crate  amethod
+  static void ValidateAge(int age)
+    {
+        if (age < 18)
+        {
+            throw new WrongAgeException("Sorry, Age must be grater than 18 year");
+        }
+    }
+    static void Main()
+    {
+        try
+        {
+            ValidateAge(20);
+        }
+        catch(WrongAgeException we)
+        {
+            Console.WriteLine(we);
+        }
+      
+    }
+   
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+STRING ProGRAM
+
+using System;
+class Program
+{
+    static void Main()
+    {
+        string s1 = "hello";
+        char[] ch = { 'c', 's', 'h', 'a', 'r', 'p' };
+        String s2 = new String(ch);
+        Console.WriteLine(s1);
+        Console.WriteLine(s2);
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+string clone() exp
+----------------------------------------------
+using System;
+class Program
+{
+    static void Main()
+    {
+        string s1 = "hello";
+        string s2 = (String)s1.Clone();
+
+        Console.WriteLine(s1);
+        Console.WriteLine(s2);
+    }
+}------------------------------------------------
+string compare() exp
+-------------------------------------------------
+using System;
+class Program
+{
+    static void Main()
+    {
+        string s1 = "hello";
+        string s2 = "hello";
+        string s3 = "csharp";
+        string s4 = "java";
+        Console.WriteLine(string.Compare(s1, s2));
+        Console.WriteLine(string.Compare(s2, s3));
+        Console.WriteLine(string.Compare(s3, s4));
+    }
+}------------------------------------------------------------
+
+string concatination ()
+-------------------------------------------------------------
+using System;
+class Program
+{
+    static void Main()
+    {
+        string s1 = "hello";
+        string s2 = "hello";
+        Console.WriteLine(string.Concat(s1, s2));
+        Console.WriteLine("Message:{0}", string.Concat(s1, s2));
+    }
+}-----------------------------------------------------------------
+
+string  CONTAINS() EXP
+-------------------------------------------------------------------
+using System;
+class Program
+{
+    static void Main()
+    {
+        string s1 = "hello";
+        string s2 = "Hi";
+        Console.WriteLine(s1.Contains(s2));
+    }
+}--------------------------------------------------------------------
+String Copy()
+---------------------------------------------------------------------
+using System;
+class Program
+{
+    static void Main()
+    {
+        string s1 = "hello";
+        string s2 = String.Copy(s1);
+        Console.WriteLine(s1);
+        Console.WriteLine(s2);
+
+    }
+}----------------------------------------------------------------------
+format() String exp
+-----------------------------------------------------------------------
+using System;
+class Program
+{
+    static void Main()
+    {
+        string s = "Name :{0} {1}, Loc:{2},Age:{3}";
+        string msg = string.Format(s, "Priyanka", "A", "Hyderabad", 22);
+        Console.WriteLine("Format Result:{0}", msg);
+    }
+}-------------------------------------------------------------------------
+
+trim() in string
+---------------------------------------------------------------------------
+using System;
+class Program
+{
+    static void Main()
+    {
+        //Trim whitespace
+        string s1 = "  Welcome";
+        string s2 = " to  ";
+        string s3 = " Mphasis";
+        Console.WriteLine("Before Trim:{0} {1} {2}", s1, s2, s3);
+        Console.Write("After Trim: {0} {1} {2}", s1.Trim(), s2.Trim(), s3.Trim());
+    }
+}--------------------------------------------------------------------------
+ tolower() to upper()
+-----------------------------------------------------------------------------
+using System;
+class Program
+{
+    static void Main()
+    {
+        //Trim whitespace
+        string s1 = " welcome in C#";
+        string s2 = s1.ToLower();
+        string s3 = s1.ToUpper();
+        Console.WriteLine(s2);
+        Console.WriteLine(s3);
+    }
+}----------------------------------------------------------------------------
+
+SPLIT() string
+--------------------------------------------------------------------------------
+using System;
+class Program
+{
+    static void Main()
+    {
+        //Trim whitespace
+        string s1 = " welcome in C#";
+        string[] s2 = s1.Split(' ');
+        foreach(string i in s2)
+        {
+            Console.WriteLine(i);
+        }
+    }
+}--------------------------------------------------------------------------------
+
+String builder() (insert,remove,apend,replace)
+---------------------------------------------------------------------------------
+using System;
+using System.Text;
+class Program
+{
+    static void Main()
+    {
+        String MyName;
+        StringBuilder bs = new StringBuilder("Hello");
+        bs.Remove(2, 3); //print he only
+        bs.Insert(2, "lp"); //print Help
+        bs.Replace('l', 'a'); //print Heap
+        bs.Append(", arvind");
+        MyName = bs.ToString();
+        Console.Write("\n"+MyName);
+    }
+}-------------------------------------------------------------------------------
+
+date time () exp
+
+using System;
+using System.Text;
+class Program
+{
+    static void Main()
+    {
+        //assign default value 01/01/0001 00:00:00
+        DateTime dt1 = new DateTime();
+        Console.WriteLine(dt1);
+        //Assign year, month, day
+        DateTime dt2 = new DateTime(2022, 06, 14);
+        Console.WriteLine(dt2);
+        //year, month, day,hour,min,seconds
+        DateTime dt3 = new DateTime(2022, 06, 14, 5, 10, 20);
+        Console.WriteLine(dt3);
+    }
+}--------------------------------------------------------------------
+ get datetimeformat()
+---------------------------------------------------------------------
+using System;
+using System.Text;
+class Program
+{
+    static void Main()
+    {
+       
+        DateTime dt3 = new DateTime(2022, 06, 14,12,30,20);
+        string[] formatofDate = dt3.GetDateTimeFormats();
+        foreach(string f in formatofDate)
+        {
+            Console.WriteLine(f);
+        }
+       
+    }
+}---------------------------------------------------------------
+
+Regex()(REGULARNEXPRESSION) EXp:-
+-----------------------------------------
+using System;
+using System.Text;
+using System.Text.RegularExpressions;
+class Program
+{
+    static void Main()
+    {
+        //input string to match
+        //valid indian mobile number
+        string[] str = { "9925612824", "9988481028", "838383833" };
+        foreach (var s in str)
+        {
+            Console.WriteLine("{0}, {1} a valid mobile number", s, isValidMobileNumber(s) ? "is" : "is not");
+        }
+       //method to contain the Regular expression
+
+    }
+    public static bool isValidMobileNumber(string inputMob)
+    {
+        string strRegex = @"(^[0-9]{10}$)|(^\+[0-9]{2]\s+[0-9]{2}[0-9]{8}$)|(^\+[0-9]{3]-[0-9]{4}-[0-9]{4}$)";
+        /*
+         regular express:
+        "(^[0-9]{10}$): xxxxxxxxxx
+        (^\+[0-9]{2]\s+[0-9]{2}[0-9]{8}$): +xx-xx xxxxxxxx
+        (^\+[0-9]{3]-[0-9]{4}-[0-9]{4}$)":  xxx - xxxx - xxxx 
+         */
+        Regex re = new Regex(strRegex);
+        //the IsMathc mehtod is used to validate the string
+
+        if (re.IsMatch(inputMob))
+            return (true);
+        else
+            return (false);
+
+    }
+}
+---------------------------------------------------------------------------------------------------------------------------------------------
+file handling in c#
+
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        //driveinfo class
+        DriveInfo[] di = DriveInfo.GetDrives();
+        Console.WriteLine("Total partitions in  Drives");
+        Console.WriteLine("---------------------------");
+        foreach(DriveInfo info  in di)
+        {
+            Console.WriteLine(info.Name);
+        }
+
+
+
+    }
+}-------------------------------------------------------------------
+
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        //driveinfo class
+        DriveInfo[] di = DriveInfo.GetDrives();
+        Console.WriteLine("Total partitions in Drives");
+        Console.WriteLine("-------------------------------------");
+        foreach(DriveInfo info in di)
+        {
+            Console.WriteLine(info.Name);
+        }
+        //partition details
+        Console.WriteLine("Enter the partition to get detaisl");
+        string ch = Console.ReadLine();
+        DriveInfo dinfo = new DriveInfo(ch);
+        Console.WriteLine("Drive Name:{0}", dinfo.Name);
+        Console.WriteLine("Total size:{0", dinfo.TotalSize);
+        Console.WriteLine("Free space:{0}", dinfo.TotalFreeSpace);
+        Console.WriteLine("Drive type:{0}", dinfo.DriveType);
+    }
+}
+------------------------------------------------------------------------------
+
+create a Directory  folder
+
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        //crate dir (folder)
+        DirectoryInfo di = new DirectoryInfo(@"E:\Hrutikesh");
+        //create dir in same project
+        di.Create();
+        Console.WriteLine("Dir created successfully...");
+    }
+}-------------------------------------------------------------------------------
+
+creating a file 
+-------------------------
+
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        FileInfo file = new FileInfo(@"E:\Hrutikesh\Mphasis.pdf");
+        file.Create();
+        Console.WriteLine("File is created successfuly....");
+    }
+}-------------------------------------------------------------------------------------
+
+writing a content in file using (streamwriter())
+-----------------------------------------------
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        //  FileInfo file = new FileInfo(@"E:\Hrutikesh\test.txt");
+        StreamWriter mw = null;
+        string data = "hi this is file handlng in c#";
+        mw = File.CreateText(@"E:\Hrutikesh\test.txt");
+        mw.Write(data);
+        Console.WriteLine("File has been created with contents...");
+        mw.Close();
+    }
+}-------------------------------------------------------------------------------
+creating the file in folder
+
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        FileStream f = new FileStream("G:\\bb2.txt", FileMode.OpenOrCreate);
+        StreamReader dr = new StreamReader(f);
+        string l = dr.ReadLine();
+        Console.WriteLine(l);
+        dr.Close();
+        f.Close();
+    }
+}----------------------------------------------------------------------------
+
+deleting the created file in folder
+
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        FileInfo file = new FileInfo(@"G:\bb2.txt");
+        file.Delete();
+        Console.WriteLine("File has been deleted...");
+    }
+}
+--------------------------------------------------------------------------------
+
+append example
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        // FileInfo file = new FileInfo(@"E:\test.txt");
+        string path = @"E:\Hrutikesh\test.txt";
+        StreamWriter sw1 = File.AppendText(path);
+        sw1.WriteLine("this is last ");
+        sw1.WriteLine("topic");
+        sw1.WriteLine("of file handling");
+        sw1.Close();
+    }
+}---------------------------------------------------------------------------------
+
+Generation 
+
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        Console.Write("The number of Gens are:" + GC.MaxGeneration);
+    }
+}
+
+
+---------------------------------------------------------------------------------
+generation number of object
+
+
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        Program p = new Program();  
+        Console.Write("Generation number of object is:" + GC.GetGeneration(p));
+    }
+}
+
+----------------------------------------------------------------------------------
+generation 
+----------------------------------------------------------------------------------
+
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        GC.Collect(0);
+        Console.WriteLine("GC is Generation 0 is:" + GC.CollectionCount(0));
+    }
+}
+-----------------------------------------------------------------------------------
+Garbage  collectionexample 
+-----------------------------------------------------------------------------------
+using System;
+using System.IO;
+class Calculator
+{
+    public int Add(int a, int b)
+    {
+        return (a + b);
+    }
+    public int Sub(int a, int b)
+    {
+        return (a - b);
+    }
+    public int Mul(int a, int b)
+    {
+        return (a * b);
+    }
+    public int Div(int a, int b)
+    {
+        return (a / b);
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Calculator c = new Calculator();
+        Console.WriteLine("Calculator objec tis now on :" + GC.GetGeneration(c));
+        Console.WriteLine("GC occured in 0th Gen:" + GC.CollectionCount(0));
+        Console.WriteLine("GC occured in 1th Gen:" + GC.CollectionCount(1));
+        Console.WriteLine("GC occured in 2th Gen:" + GC.CollectionCount(2));
+        GC.Collect(0);
+        Console.WriteLine("GC occured in 0th Gen:" + GC.CollectionCount(0));
+    }
+}-----------------------------------------------------------------------------------------------------------------------------------------
+ 
+constructor without object
+
+using System;
+public class Employee
+{
+    public Employee()
+    {
+        Console.WriteLine("Welcome to C# program");
+
+    }
+    class Program
+    {
+        static void Main()
+        {
+            Employee e1 = new Employee();
+            Employee e2 = new Employee();   
+        }
+    }
+}-------------------------------------------------------------------------------------------------------------
+Constructor with class and method
+------------------------------------------------
+using System;
+public class Employee
+{
+    int eid, eage;
+    String eaddr, ename;
+    public Employee()
+    {
+        this.eid = 100;
+        eage = 23;
+        this.ename = "nazrana";
+        eaddr = "Mumbai";
+    }
+   public void Display()
+    {
+        Console.WriteLine("Id:" + eid);
+        Console.WriteLine("Name is:" + ename);
+        Console.WriteLine(" AGe is :" + eage);
+        Console.WriteLine("Address is:" + eaddr);
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Employee e1 = new Employee();
+        Employee e2 = new Employee();
+        e1.Display();
+        e2.Display();
+    }
+}-------------------------------------------------------------------------------------------------------------------------------------
+ Distructor example
+-------------------------
+using System;
+
+class DestDemo()
+    
+  public DestDemo()
+  {
+        Console.WriteLine(" Consturcture object created");
+  }
+    
+
+}
+~DestDemo()
+    {
+    Console.WriteLine("Object is destroyed");
+}
+class Program
+{
+    static void Main()
+    {
+        DestDemo d1 = new DestDemo();
+        DestDemo d2 = new DestDemo();
+        d1 = null;
+        d2 = null;
+        GC.Collect();
+    }
+}----------------------------------------------------------------------------------------------------------
+
+Finalized maethod
+
+
+using System;
+class DestDemo
+{
+   
+    ~DestDemo()
+    {
+        Console.WriteLine("Finalzed called");
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        DestDemo d1 = new DestDemo();
+      
+        d1 = null;
+       
+        GC.Collect();
+        
+    }
+}----------------------------------------------------------------------------------
+
+despose example
+--------------------------------------------------------------------------------------
+
+using System;
+public class Demo : IDisposable
+{
+    private bool disposed = false;
+    public void Dispose()
+    {
+        Dispose(true);
+        GC.SuppressFinalize(this);
+    }
+    //create one method 
+    protected virtual void Dispose(bool disposing)
+    {
+        if (!disposed)
+        {
+            if (disposing)
+            {
+                //clean up mamanged objects
+            }
+            //clean unmanged objects as per your needs
+            disposed = true;
+        }
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Demo d = new Demo();
+        d.Dispose();
+    }
+}--------------------------------------------------------------------------------------------------
+  CLass program
+
+using System;
+class User
+{
+    //dec all data member and method
+    int id;
+    String name;
+    static void Main()
+    {
+        User u1 = new User();
+        u1.id = 100;
+        u1.name = "Ramakrishana";
+        Console.WriteLine("Id {0}", u1.id);
+        Console.WriteLine("Name:{0}", u1.name);
+    }
+}
+====================================================================================================
+Method in classs
+=====================
+
+using System;
+class User
+{
+    //dec all data member and method
+   public int id;
+   public String name;
+    //method
+    public void GetValue(int i, String n)
+    {
+        id = i;
+        name = n;
+    }
+    //method to display it
+    public void Show()
+    {
+        Console.WriteLine("id {0}, name={1}", id, name);
+    }
+}
+class Welcome
+{ 
+    static void Main()
+    {
+        User u1 = new User();
+        u1.GetValue(101, "Deepa");
+        User u2 = new User();
+        u2.GetValue(102, "Rama");
+        u1.Show();
+        u2.Show();
+    }
+}
+========================================================================================
+This kelword exp
+
+using System;
+class User
+{
+    //dec all data member and method
+   public int id;
+   public String name;
+    //method
+    public void GetValue(int id, String name)
+    {
+        this.id = id;
+        this.name = name;
+    }
+    //method to display it
+    public void Show()
+    {
+        Console.WriteLine("id {0}, name={1}", id, name);
+    }
+}
+class Welcome
+{ 
+    static void Main()
+    {
+        User u1 = new User();
+        u1.GetValue(101, "Deepa");
+        User u2 = new User();
+        u2.GetValue(102, "Rama");
+        u1.Show();
+        u2.Show();
+    }
+}
+==============================================================================================
+
+Single inheritnace without class 
+
+using System;
+class A
+{
+    public void Show()
+    {
+        Console.WriteLine("Welcome in base class");
+    }
+}
+class B:A
+{
+    public void Display()
+    {
+        Console.WriteLine("Welcome in child class method");
+    }
+}
+class TEst
+{
+    static void Main()
+    {
+        //obect of B
+        B b1 = new B();
+        b1.Show();
+        b1.Display();
+    }
+}
+===========================================================================
+Multilevel inhereitance
+
+using System;
+public class Holiday
+{
+    public void Tour()
+    {
+        Console.WriteLine("Planning  to go Goa");
+    }
+}
+public class Food:Holiday
+{
+    public void Eat()
+    {
+        Console.WriteLine("Eating seets in beaches..");
+    }
+}
+public class Sleep:Food
+{
+    public void Sleeping()
+    {
+        Console.WriteLine("Sleeping on the sands");
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Sleep s = new Sleep();
+        s.Tour();
+        s.Eat();
+        s.Sleeping();
+    }
+}
+===========================================================================
+Interface Example
+======================
+
+using System;
+interface a
+{
+    void Display();
+    void sum();
+}
+class callme : a
+{
+    public void Display()
+    {
+        Console.WriteLine("hi this is interface method");
+
+    }
+    public void sum()
+    {
+        Console.WriteLine("Another method of interface");
+    }
+}
+class prg
+{
+    static void Main()
+    {
+        callme c = new callme();
+        c.Display();
+        c.sum();
+    }
+}
+----------------
+EXAMPLE 2
+----------------
+
+using System;
+interface IUser
+{
+    void GetDetails(String x);
+}
+class User : IUser
+{
+    public void GetDetails(String a)
+    {
+        Console.WriteLine("Name :{0}",a);
+    }
+
+}
+class User1:IUser
+{
+    public void GetDetails(string a)
+    {
+        Console.WriteLine("Location:{0}", a);
+
+    }
+}
+class Prg
+{
+    static void Main()
+    {
+        IUser u = new User();
+        u.GetDetails("Priyanka");
+        IUser ul = new User1();
+        u.GetDetails("Delhi");
+        Console.ReadLine();
+    }
+
+}
+================================================================================================
+NESTED INTERFACE
+=================
+using System;
+interface IFirst
+{
+    void myMethod();
+}
+interface ISecond
+{
+   void mySecond();
+}
+//implement
+class Democlass : IFirst,ISecond
+{
+    public void myMethod()
+    {
+        Console.WriteLine("Hello first method");
+    }
+
+      public void mySecond()
+    {
+        Console.WriteLine("Second method");
+    }
+}
+  class Prg
+  {
+    static void Main()
+    {
+        Democlass d = new Democlass();
+        d.myMethod();
+        d.myMethod();
+    }
+  }
+==========================================================================
+Excersice exp
+=========================
+using System;
+interface IName
+{
+    void myName();
+}
+interface ILocation
+{
+   void myLocation();
+}
+interface IAge
+{
+    void myAge();
+}
+interface ISalary
+{
+    void mySalary();
+}
+//implement
+class Democlass : IName, ILocation,IAge,ISalary
+{
+    public void myName()
+    {
+        Console.WriteLine("venkatesh");
+    }
+
+      public void myLocation()
+    {
+        Console.WriteLine("Kolhapur");
+    }
+
+    public void myAge()
+    {
+        Console.WriteLine("25");
+    }
+
+    public void mySalary()
+    {
+        Console.WriteLine("15000");
+    }
+}
+  class Prg
+  {
+    static void Main()
+    {
+        Democlass d = new Democlass();
+        d.myName();
+        d.myLocation();
+        d.myAge();
+        d.mySalary();
+    }
+  }
+========================================================23_6_22=================================================
+1. Method Overloding Example
+
+using System;
+public class Print
+{
+    public void display(string name)
+    {
+        Console.WriteLine("Your name is :" + name);
+    }
+    //another overload method
+    public void display(int age, float marks)
+    {
+        Console.WriteLine("AGe:" + age);
+        Console.WriteLine("marks:" + marks);
+    }
+}
+class Class
+{
+    public static void Main(String[] args)
+    {
+        Print ob = new Print();
+        ob.display("venkatesh");
+        ob.display(25, 98.9f);
+    }
+}
+========================================================
+2.method overloding with inheritance
+using System;
+class Class1
+{
+    public int Sum(int a, int b)
+    {
+           return a + b;    
+    }
+    public float sum(int a, float b)
+    {
+        return (a + b);
+    }
+}
+class Class2 : Class1
+{
+    public int Sum(int a, int b, int c)
+    {
+        return a + b + c;
+
+    }
+}
+class Class
+{
+    public static void Main(String[] args)
+    {
+        Class2 ob = new Class2();
+        Console.WriteLine("Sum1:" + ob.Sum(20, 10));
+        Console.WriteLine("Sum2:" + ob.Sum(20, 10));
+        Console.WriteLine("Sum3:" + ob.Sum(10, 20, 5));
+
+    }
+}===============================================================
+3. Method Overridden Example
+
+/method overridden
+using System;
+public class Animal
+{
+    public virtual void Eat()
+    {
+        Console.WriteLine("Eating.......");
+    }
+}
+public class Dog:Animal
+{
+    public override void Eat()
+    {
+        Console.WriteLine("Dog eating breads...");
+    }
+}
+class Prg
+{
+    static void Main()
+    {
+        Dog d = new Dog();
+        d.Eat();
+        Animal a = new Animal();
+        a.Eat();
+    }
+}
+\==================================================================
+4.exampe of properrty (GET,SET)
+/method overridden
+using System;
+public class Animal
+{
+    public virtual void Eat()
+    {
+        Console.WriteLine("Eating.......");
+    }
+}
+public class Dog:Animal
+{
+    public override void Eat()
+    {
+        Console.WriteLine("Dog eating breads...");
+    }
+}
+class Prg
+{
+    static void Main()
+    {
+        Dog d = new Dog();
+        d.Eat();
+        Animal a = new Animal();
+        a.Eat();
+    }
+}
+===================================================================
+using System;
+public class Employee
+{
+    private string name = "Venkatesh warke";
+    private string loc;
+    //property
+    public string Name
+    {
+        get { return name.ToUpper(); }
+        set {
+            if (value == "Venkatesh")
+                name = value;
+        }
+    }
+    public string Location
+    {
+        get { return loc; }
+        set { loc = value; }
+    }
+}
+class Prg
+{
+    static void Main()
+    {
+        Employee e1 = new Employee();
+        e1.Name = "Ankita";
+        e1.Location = "Kolhapur";
+        Console.WriteLine("Name:" + e1.Name);
+        Console.WriteLine("Location:" + e1.Location);
+    }
+}========================================================================
+
+Example 
+
+using System;
+public class Employee
+{
+    private int Id;
+    private string name = "Venkatesh warke";
+    private string loc;
+    private int mobile;
+    //property
+    public int id
+    {
+        get { return Id; }
+        set { Id = value; }
+    }
+    public string Name
+    {
+        get { return name.ToUpper(); }
+        set {
+            if (value == "Venkatesh")
+                name = value;
+        }
+    }
+    public string Location
+    {
+        get { return loc; }
+        set { loc = value; }
+    }
+    public int Mobile
+    {
+        get { return mobile; }
+        set { mobile = value; }
+    }
+}
+class Prg
+{
+    static void Main()
+    {
+        Employee e1 = new Employee();
+        e1.id = 1;
+        e1.Name = "Ankita";
+        e1.Location = "Kolhapur";
+        e1.Mobile = 976681538;
+        Console.WriteLine("Id:" + e1.id);
+        Console.WriteLine("Name:" + e1.Name);
+        Console.WriteLine("Location:" + e1.Location);
+        Console.WriteLine("Mobile:" + e1.Mobile);
+    }
+}=====================================================================
+ENCAPSULATION
+
+using System;
+public class Bank
+{
+    //hiding clas  data by dec the variable as private
+    private double balance;
+    //getter and setter method  to access the value
+    public double getBalance()
+    {
+        return balance;
+    }
+    public void SetBalance(double balance)
+    {
+        this.balance = balance;
+    }
+}
+class SBI
+{
+    static void Main()
+    {
+        Bank b = new Bank();
+        b.SetBalance(15000);
+        Console.WriteLine("Details of Account:" + b.getBalance());
+    }
+
+}========================================================================
+2. Encapsulation get set method
+using System;
+public class Bank
+{
+    //hiding class data by dec the variabe as private
+    private double balance;
+    //getter and setter method to access the value
+    public double Balance
+    {
+        get { return balance; }
+        set
+        {
+            //validation
+            if (value < 0)
+            {
+                Console.WriteLine("Value can not be negative");
+            }
+            else
+            {
+                balance = value;
+            }
+        }
+    }
+
+}
+class SBI
+{
+    static void Main()
+    {
+        Bank sbi = new Bank();
+        sbi.Balance = 1000;
+        Console.WriteLine("Banlance:" + sbi.Balance);
+        sbi.Balance = -50;
+        Console.WriteLine("balnace:" + sbi.Balance);
+    }
+}
+==================================================================
+ABSTRACTION EXAMPLE
+
+using System;
+
+public class Laptop
+
+private string model;
+public string brand
+{
+    get { return brand; }
+    set { brand = value; }
+}
+public string Model
+{
+    get { return model; }
+    set { brand = value; }
+}
+
+public void LaptopDetails()
+{
+    Console.WriteLine("Brand:" + brand);
+    Console.WriteLine("Model:" + model);
+}
+  public void LaptopKeyboard()
+  {
+    Console.WriteLine("Type using Keyboard");
+  }
+private void Motherboard()
+{
+    Console.WriteLine("Motherboard information is not req by us");
+}
+private void Processor()
+{
+    Console.WriteLine("Even processor is not requ by us");
+}
+
+class Prg
+{
+    static void Main()
+    {
+        Laptop l = new Laptop();
+         l.brand = "Dell";
+        l.Model = "insperation";
+        l.LaptopDetails();
+        l.LaptopKeyboard();
+        
+    }
+}
+==================
+PUBLIC PRIVATE EXP
+==================
+
+uusing System;
+class Pro
+{
+    public int num1;
+    int num2;
+
+}
+class Test
+{
+    static void Main()
+    {
+        Pro p = new Pro();
+        ////direct access to public member
+        p.num1 = 100;
+        //access to private is not permited hear
+        //P .num2 = 200;
+        Console.WriteLine("Value : {0}", p.num1);
+    }
+}
+=================================================
+PROTECTED EXAMPLE
+=================================================
+using System;
+class Pro
+{
+    protected int num1;
+}
+class hello:Pro
+{
+    public int num2;
+
+    static void Main()
+    {
+        hello h = new hello();
+        h.num1 = 10000;
+        h.num2 = 20000;
+        Console.WriteLine("Num1:" + h.num1);
+        Console.WriteLine("num2:" + h.num2);
+    }
+
+}
+===============================================
+INTERNAL 
+===============================================
+
+using System;
+internal class India
+{
+    int a, b;
+    public void SetData(int r, int i)
+    {
+        a = r;
+        b = i;  
+
+    }
+    public void Display()
+    {
+        Console.WriteLine("A and B {0}, {1}", a, b);
+
+    }
+}
+class Prg
+{
+    static void Main()
+    {
+        //instantiate the clas  india
+        //in the seprate class but within same assembly
+        India india  = new India();
+        india.SetData(10, 100);
+        india.Display();
+
+    }
+}
+======================================================
+Protected Internal
+========================================================
+using System;
+class India
+{
+    protected internal string Name;
+    protected internal void GetDetails()
+    {
+        Console.WriteLine("Name :{0}", Name);
+;
+    }
+}
+class Prg
+{
+    static void Main()
+    {
+        India i = new India();
+        i.Name = "venkatesh";
+        i.GetDetails();
+    }
+}
+=======================================================
+
+====================================24=6=22================= 		
+
+Q Sealed clas  Exp
+using System;
+sealed class User
+{
+    public string name = "venkatesh";
+    public string location = "kolhapur";
+    public void Details()
+    {
+        Console.WriteLine("\n Name:{0}",name);
+        Console.WriteLine("location: {0}", location);
+
+    }
+}
+//Derived class
+public class UserDetails:User
+{
+    public int age = 21;
+    public void getAge()
+    {
+        Console.WriteLine("Age:{0}", age);
+
+    }
+}
+class Prg
+{
+    static void Main()
+    {
+        UserDetails d = new UserDetails();
+        d.Details();
+        d.getAge();
+        Console.ReadLine();
+    }
+}
+==========================================================================
+Static Example
+==========================
+using System;
+static class Venk
+{
+    //static data member
+    public static string topic = "Static class concept";
+    //static variable
+    public static string Duration = "3 months";
+    //static method in
+    static public int fee = 200;
+
+    public static void Details()
+    {
+        Console.WriteLine("total fees:{0}",fee);    
+    }
+}
+//derived class
+public class Callme
+{
+    static public void Main()
+    {
+        //accsessing the static data of venk
+        Console.WriteLine("Topices is:{0}",Venk.topic);
+        Console.WriteLine("Duration:{0}",Venk.Duration);
+        Venk.Details(); 
+    }
+}\
+=============================================================================
+STATIC CONSTRUCTOR
+=============================================================================
+using System;
+class Welcome
+{
+    static Welcome()
+    {
+        Console.WriteLine("example of static constr..");
+    }
+    //instance const
+    public Welcome()
+    {
+        Console.WriteLine("Instance Constructor");
+    }
+    //instance constr with para
+    public Welcome(int a)
+    {
+        Console.WriteLine("instance constr :" + a);
+    }
+    //instance method
+    public string Details(String name, string branch)
+    {
+        return "Name:" + name + "Branch:" + branch;
+
+    }
+}
+public class Callme
+{
+    static public void Main()
+    {
+        //here both static and instance
+        //constr are invoked for first instance
+        Welcome obj = new Welcome(1);
+        Console.WriteLine(obj.Details("Venkatesh", "CSe"));
+        //here only instance const will invoked
+        Welcome ob1 = new Welcome(2);
+        Console.WriteLine(ob1.Details("komal","IT"));
+    }
+}==========================================================================
+Partial calss example
+=====================
+Step1: Create Employee.cs file
+using System;
+namespace Demo_partial
+{
+    public partial class Employee
+    {
+        private string _firstName;
+        public string FirstName
+        {
+            get { return _firstName; }
+            set { _firstName = value; }
+        }
+       public void Display()
+        {
+            Console.WriteLine("name:{0}", _firstName);
+        }
+    }
+}
+Step2: call it inside in Main.cs
+using System;
+using Demo_partial;
+namespace Demo_partial
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Employee e = new Employee();
+            e.FirstName = "Priyanak";
+            e.Display();
+            Console.ReadLine();
+        }
+    }
+}
+==================================27=6=22===========================================
+Deligates Example without para
+
+using System;
+public class Welcome
+{
+    //creating a elegate without a p[ara
+    public delegate void FirstDelegate();
+
+    public void Fun1()
+    {
+        Console.WriteLine("I am Fun1");
+    }
+    public void Fun2()
+    {
+        Console.WriteLine("I am Fun2");
+    }
+    public void Fun3()
+    {
+        Console.WriteLine("I am Fun3");
+    }
+}
+class Prg
+{
+    static void Main()
+    {
+        Welcome w = new Welcome(); //Instantiation
+        Welcome.FirstDelegate fd1 = new Welcome.FirstDelegate(w.Fun1);
+        Welcome.FirstDelegate fd2 = new Welcome.FirstDelegate(w.Fun2);
+        Welcome.FirstDelegate fd3 = new Welcome.FirstDelegate(w.Fun3);
+        //Invovation
+        fd1();
+        fd2();
+        fd3();
+    }
+}
+=============================================================================================
+ Multi- cast Delegate example
+
+using System;
+public class TestDelegate
+{
+    public delegate void ShowMessage(String s);
+
+    public void message1(String msg)
+    {
+        Console.WriteLine("1st Message is: {0}", msg);
+    }
+    public void message2(String msg)
+    {
+        Console.WriteLine("2nd Message is: {0}", msg);
+    }
+    public void message3(String msg)
+    {
+        Console.WriteLine("3rd Message is: {0}", msg);
+    }
+}
+class Prg
+{
+    static void Main()
+    {
+        TestDelegate td = new TestDelegate();
+        TestDelegate.ShowMessage message = null;
+        message += new TestDelegate.ShowMessage(td.message1);
+        message += new TestDelegate.ShowMessage(td.message2);
+        message += new TestDelegate.ShowMessage(td.message3);
+        message("Hello doing multi-cast delegate");
+        message -= new TestDelegate.ShowMessage(td.message1);
+        Console.WriteLine("------------------------------------");
+        message("Message 2 has been removed");
+        Console.ReadLine();
+    }
+}
+=============================================================================================
+Example of Predecate delegate
+
+using System;
+class Welcome
+{
+    //dec the delegate
+    public delegate bool MyDel(string mystring);
+    //method
+    public static bool myfun(string mystring)
+    {
+        if (mystring.Length < 7)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    static void Main()
+    {
+        MyDel ob = myfun;
+        Console.WriteLine(ob("Hello"));
+    }
+}
+=================================================================================================
+Example function Delegate
+
+using System;
+class Welcome
+{
+    //dec  delegate
+    public delegate int myDel(int s, int d, int f, int g);
+    //method
+    public static int my_delegate(int s, int d, int f, int g)
+    {
+        return s * d * f * g;
+    }
+    static void Main()
+    {
+        myDel ob = my_delegate;
+        Console.WriteLine(ob(12, 5, 22, 55));
+      
+    }
+} 
+===================================================
+Another Example
+using System;
+class Welcome
+{
+   
+    //method
+    public static int my_delegate(int s, int d, int f, int g)
+    {
+        return s * d * f * g;
+    }
+    static void Main()
+    {
+        //Func delegate with 4 para and one out
+        Func<int, int, int, int, int> val = my_delegate;
+        Console.WriteLine(val(10, 100, 101, 1));
+      
+    }
+}
+========================================================
+ ACTION DELEGATE-Example
+
+using System;
+class Test
+{
+
+    static void Show(int i)
+    {
+        Console.WriteLine(i);
+    }
+    static void Main()
+    {
+        Action<int> p = Show;
+        p(10);
+    }
+}
+========================================================
+Q. Action with custom Delegate
+
+using System;
+class Custom
+{
+    static void Main()
+    {
+        Action<int, int> printActionDel = delegate (int i, int a)
+        {
+            Console.WriteLine(i+""+a);
+        };
+        printActionDel(10,20);
+    }
+}
+=========================================================
+Anonyous Function Example-
+
+using System;
+class Custom
+{
+    public delegate void Print(int value);
+    static void Main()
+    {
+        Print p = delegate (int val)
+          {
+              Console.Write("Inside anonyous mehtod value {0}", val);
+          };
+        p(100);
+    }
+}
+==================================================================
+Amonyous function with int example
+
+using System;
+class pro
+{
+    public delegate void MyDelegate();
+    public delegate void Print(int age);
+    static void Main()
+    {
+        MyDelegate d = delegate ()
+        {
+            Console.WriteLine("Without para");
+        };
+        Print p = delegate (int age)
+        {
+            Console.WriteLine("Age:{0}", age);
+        };
+
+        ///inovoking here
+        d();
+        p(21);
+    }
+}=================================================================
+
+EVENT IN DELEGATE
+using System;
+class Math
+{
+    public delegate void MyDelegate();
+    //dec event
+    public event MyDelegate SampleEvent;
+    public void Add(int a, int b)
+    {
+        //calling event delegate to check subcription +=, -=
+        if (SampleEvent != null)
+        {
+            //raise an event
+            SampleEvent();
+            Console.WriteLine("Add :{0}", a + b);
+        }
+        else
+        {
+            Console.WriteLine("No subscribed event  with delegate...");
+        }
+    }
+}
+class Operation
+{
+    Math m;
+    public int a { get; set; }
+    public int b { get; set; }
+    public Operation(int x, int y)
+    {
+        m = new Math();
+        //subcribe to samplevent 
+        m.SampleEvent += SampleEventHandler;
+        a = x;
+        b = y;
+    }
+    //sampleent Handler  method
+    public void SampleEventHandler()
+    {
+        Console.WriteLine("Sampleevent handler method called");
+    } 
+  //call the operation method
+    public void AddOperation()
+    {
+        m.Add(a, b);
+    }
+}
+class Prg
+{
+    static void Main()
+    {
+        Operation op = new Operation(10, 20);
+        op.AddOperation();
+        //op.Sub(),op.MUL()
+    }
+}================================================================================
+
+
+using System;
+public delegate void SampleEventHandler();
+
+class Prg
+{
+    public static event SampleEventHandler _show;
+
+    static void Main()
+    {
+        _show += new SampleEventHandler(Event);
+        _show += new SampleEventHandler(Handler);
+        _show.Invoke();
+    }
+    //method event
+    static void Event()
+    {
+        Console.WriteLine("Event clled");
+    }
+    static void Handler()
+    {
+        Console.WriteLine("handler called");
+    }
+}==================================================================================
+
+POINTER Program
+===================
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        //dec a code block as pointer to make it unsafe
+        unsafe
+        {
+            int x = 10;
+            int* ptr;
+            ptr = &x;
+
+            Console.WriteLine("Inside the unsafe code block");
+            Console.WriteLine("value of x is:" + *ptr);
+        }
+        Console.WriteLine("try to run code outside of CLR");
+======================================================================================
+Another Example {pointer}
+
+using System;
+class Pointer
+{
+    static unsafe void Main()
+    {
+        int var = 100;
+        int* ptr = &var;
+        Console.WriteLine("Data is;{0}", var);
+        Console.WriteLine("ptr value is:{0}", ptr->ToString());
+        Console.WriteLine("Address is:{0}", (int)ptr);
+    }
+}
+=========================================== 
+Swapping in pointer
+
+using System;
+
+class Program
+{
+    static unsafe void Main()
+    {
+        Program p = new Program ();
+
+        int val1 = 10;
+        int val2 = 20;
+        int* x = &val1;
+        int* y = &val2;
+        Console.WriteLine("Befor swaping : val1{0}, val2{1}", val1, val2);
+        p.swap(x, y);
+        Console.WriteLine("After swaping : val1{0}, val2{1}", val1,val2);
+
+    }
+    public unsafe void swap(int *p, int* q)
+    {
+        int t = *p;
+        *p = *q;
+        *q = t; 
+    }
+
+}=============================================
+UNsafe pointer with array
+ using System;
+class prog
+{
+
+    static unsafe void Main()
+    {
+        int[] list = { 10, 20, 30, 40, 50 };
+        fixed (int* ptr = list)
+            for (int  i = 0; i < list.Length; i++)
+            {
+                Console.WriteLine("Address of list [{0}]={1}", i, (int)(ptr + i));
+                Console.WriteLine("Value of list: [{0}] ={1}",i,*(ptr + 1));
+             
+            
+              
+              
+                Console.ReadLine();
+                                                                              
+            }
+    }
+}============================================
+
+using System;
+struct MysStruct
+{
+    public int a;
+    public double b;
+
+}
+class Prg
+{
+    static unsafe void Main()
+    {
+        MysStruct my = new MysStruct();
+        my.a = 100;
+        my.b = 30;
+        MysStruct* ptr = &my;
+        Console.WriteLine("A value is:" + ptr->a);
+        Console.WriteLine("B value is:" + ptr->b);
+        Console.WriteLine("ptr value :" + (*ptr).a);
+        Console.WriteLine("ptr value b :" + (*ptr).b);
+    }
+}==============================================================================29==6==22=================
+
+THREADS
+================
+using System;
+using System.Threading;
+class Prg
+{
+    static unsafe void Main()
+    {
+        Thread t = Thread.CurrentThread;
+        t.Name = "Mphasis Batch 22";
+        Console.WriteLine("Current Thread name:" + t.Name);
+        Console.WriteLine("Current :" + Thread.CurrentThread.Name);
+        Console.WriteLine("Thread Id {0}", t.ManagedThreadId);
+        Console.WriteLine("background thread:{0}", t.IsBackground);
+        Console.WriteLine("thread  Culture :{0}", t.CurrentCulture);
+    }
+}===============================================================================
+Thread life cycle Example
+=============================
+using System;
+using System.Threading;
+class Prg
+{
+    static  void Main()
+    {
+        //create a child  thread
+        Thread t1 = new Thread(new ThreadStart(Information));
+        Console.WriteLine("Thread State :{0}", t1.ThreadState);
+        //start new creted thread
+        t1.Start();
+        Console.WriteLine("Thread State :{0}", t1.ThreadState);
+        //suspend thread
+        t1.Suspend();
+        Console.WriteLine("Thread State :{0}", t1.ThreadState);
+        //resume thread to running state
+        t1.Resume();
+        Console.WriteLine("Thread state:{0}", t1.ThreadState);
+        Console.ReadLine();
+    }
+    //method to print life cycle
+    static void Information()
+    {
+        Console.WriteLine("method executed..");
+    }
+}====================================================================================
+Current thread Example
+
+using System;
+using System.Threading;
+class Prg
+{
+    static void Main()
+    {
+        Thread t = Thread.CurrentThread;
+        t.Name = "Welcome in my thread";
+        Console.WriteLine("Status of current thread :{0}", t.IsAlive);
+        Console.ReadLine();
+    }
+}
+====================================================================
+Thread priority Example
+================================
+using System;
+using System.Threading;
+
+
+class Prg
+{
+    static void Main()
+    {
+        Thread t = Thread.CurrentThread;
+        t.Name = "Welcome in my Thread";
+        Console.WriteLine("Thread Name:{0}",t.Name);
+        Console.WriteLine("Thread Priority :{0}",t.Priority);
+        Console.WriteLine("Child thread Pasued..");
+        //using sleep method
+        Thread.Sleep(1000);
+        Console.WriteLine("Child Thread Resumed...");
+
+        Console.ReadLine();
+    }
+}
+========================================================================
+Threading COncept Exampple
+using System;
+using System.Threading;
+class Prg
+{
+    static void Main()
+    {
+        Method1();
+        Method2();
+        Mehtod3();
+
+        Console.ReadLine();
+    }
+    //method with loop
+    static void Method1()
+    {
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine("Method1 :" + i);
+        }
+    }
+    //another method
+    static void Method2()
+    {
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine("Method2 :" + i);
+            if (i == 3)
+            {
+                Console.WriteLine("Performing the database operation started...");
+                //sleep for 10 second
+                Thread.Sleep(1000);
+                Console.WriteLine("Performing the database operatoin has been Completed...");
+            }
+        }
+
+    }
+    //another method
+    static void Mehtod3()
+    {
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine("Method3:" + i);
+ 
+   
+        }
+    }
+}====================================================================================
+MULT-THREADING EXAMPLE
+==============================
+using System;
+using System.Threading;
+class Prg
+{
+    static void Main()
+    {
+        Console.WriteLine("Main Thread Started...");
+        //Creating a thread
+        Thread t1 = new Thread(Method1)
+        {
+            Name = "thread 1"
+        };
+        Thread t2 = new Thread(Method2)
+        {
+            Name = "thread 2"
+        };
+        Thread t3 = new Thread(Mehtod3)
+        {
+            Name = "thread 3"
+        };
+        //execute the thread
+        t1.Start();
+        t2.Start();
+        t3.Start();
+        Console.WriteLine("Thread Ended...");
+        Console.ReadLine();
+    }
+  
+ //method with loop
+    static void Method1()
+    {
+        Console.WriteLine("Method 1 started using :" + Thread.CurrentThread.Name);
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine("Method1 :" + i);
+        }
+    }
+    //another method
+    static void Method2()
+    {
+        Console.WriteLine("Method 2 started using :" + Thread.CurrentThread.Name);
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine("Method2 :" + i);
+            if (i == 3)
+            {
+                Console.WriteLine("Performing the database operation started...");
+                //sleep for 10 second
+                Thread.Sleep(1000);
+                Console.WriteLine("Performing the database operatoin has been Completed...");
+            }
+        }
+        Console.WriteLine("Method 2 eneded using:" + Thread.CurrentThread.Name);
+  }
+    //another method
+    static void Mehtod3()
+    {
+        Console.WriteLine("Method 3 started using :" + Thread.CurrentThread.Name);
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine("Method3 :" + i);
+        }
+        Console.WriteLine("Method 3 eneded using:" + Thread.CurrentThread.Name);
+    }
+}
+====================================================================================================
+JOIN THREAD EXAMPLE
+
+using System;
+using System.Threading;
+class Prg
+{
+    static void Main()
+    {
+        Console.WriteLine("Main thread started..");
+        //Main Thread creating three child thread
+        Thread t1 = new Thread(Method1);
+        Thread t2 = new Thread(Method2);
+        Thread t3 = new Thread(Mehtod3);
+        t1.Start();
+        t2.Start();
+        t3.Start();
+        //join mehtod
+        t1.Join();
+        t2.Join();
+        t3.Join();
+        Console.WriteLine("Main thread ended...");
+        Console.ReadLine();
+    }
+    //method with loop
+static void Method1()
+    {
+        Console.WriteLine("Method 1- Thread 1 Started ");
+        Thread.Sleep(3000);
+        Console.WriteLine("Method1 - Thread 1 Eneded");
+    }
+    //another method
+    static void Method2()
+    {
+        Console.WriteLine("Method 2- Thread 2 Started ");
+        Thread.Sleep(2000);
+        Console.WriteLine("Method2 - Thread 2 Eneded");
+    }
+   //another method
+    static void Mehtod3()
+    {
+        Console.WriteLine("Method 3- Thread 3 Started ");
+        Thread.Sleep(3000);
+        Console.WriteLine("Method3 - Thread 3 Eneded");
+    }
+}======================================================================
+ ABORT(DELETE THREAD) THREAD
+
+using System;
+using System.Threading;
+
+public class MyThread
+{
+    public void India()
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            Console.WriteLine(i);
+            Thread.Sleep(100);
+        }
+    }
+}
+class Prog
+{
+    static void Main()
+    {
+        Console.WriteLine("Start the main Thread");
+        MyThread t = new MyThread();
+        Thread thread1 = new Thread(new ThreadStart(t.India));
+        Thread thread2 = new Thread(new ThreadStart(t.India));
+        thread1.Start();
+        thread2.Start();
+        try
+        {
+            thread1.Abort();
+        }
+        catch(ThreadAbortException tea)
+        {
+            Console.WriteLine(tea.ToString());  
+        }
+        Console.WriteLine("End of the main");
+    }
+}=======================================================================
+
+SETTING PRIORITY IN THREADS
+
+using System;
+using System.Threading;
+public class MyThread
+{
+    public void India()
+    {
+        Thread t = Thread.CurrentThread;
+        Console.WriteLine(t.Name + " is running now");
+    }
+}
+class Prg
+{
+    static void Main()
+    {
+        MyThread thread = new MyThread();
+        Thread thread1 = new Thread(new ThreadStart(thread.India));
+        Thread thread2 = new Thread(new ThreadStart(thread.India));
+        Thread thread3 = new Thread(new ThreadStart(thread.India));
+        thread1.Name = "India";
+        thread2.Name = "USA";
+        thread3.Name = "Nepal";
+        //set the priority
+        thread3.Priority = ThreadPriority.Highest;
+        thread2.Priority = ThreadPriority.Normal;
+        thread1.Priority = ThreadPriority.Lowest;
+        thread1.Start();
+        thread2.Start();
+        thread3.Start();
+    }
+   
+}===================================30===6===22=======================
+
+using System;
+using System.Reflection;
+
+class Prgg
+{
+    static void Main()
+    {
+        //initialize t as typeof String
+        Type t = typeof(string);
+        //use reflected to find about any sort od data related
+        Console.WriteLine("Name:{0}", t.Name);
+        Console.WriteLine("Name:{0}",t.FullName);
+        Console.WriteLine("Full Name:{0}",t.Namespace);
+        Console.WriteLine("Namespace:{0}",t.BaseType);
+    }
+}=====================================================================
+
+using System;
+using System.Reflection;
+namespace Demo_Mphasis
+{
+    class Student
+    {
+        // Properties definition
+        public int RollNo
+        {
+            get;
+            set;
+        }
+        public string Name
+        {
+            get;
+            set;
+        }
+        // No Argument Constructor
+        public Student()
+        {
+            RollNo = 0;
+            Name = string.Empty;
+        }
+        // Parameterised Constructor
+        public Student(int rno, string n)
+        {
+            RollNo = rno;
+            Name = n;
+        }
+from Arvind Kumar Trainer to All Participants:
+  // Method to Display Student Data
+        public void displayData()
+        {
+            Console.WriteLine("Roll Number : {0}", RollNo);
+            Console.WriteLine("Name : {0}", Name);
+        }
+    }
+    class Mphasis
+    {
+        // Main Method
+        static void Main(string[] args)
+        {
+            // Declare Instance of class Assembly
+            // Call the GetExecutingAssembly method
+            // to load the current assembly
+            Assembly executing = Assembly.GetExecutingAssembly();
+            // Array to store types of the assembly
+            Type[] types = executing.GetTypes();
+            foreach (var item in types)
+            {
+                // Display each type
+                Console.WriteLine("Class : {0}", item.Name);
+                // Array to store methods
+                MethodInfo[] methods = item.GetMethods();
+                foreach (var method in methods)
+                {
+from Arvind Kumar Trainer to All Participants:
+ // Display each method
+                    Console.WriteLine("--> Method : {0}", method.Name);
+                    // Array to store parameters
+                    ParameterInfo[] parameters = method.GetParameters();
+                    foreach (var arg in parameters)
+                    {
+                        // Display each parameter
+                        Console.WriteLine("----> Parameter : {0} Type : {1}",
+                                                arg.Name, arg.ParameterType);
+                    }
+                }
+            }
+        }
+    }
+}===========================================================================================
+
+using System;
+namespace Demo_Mphasis
+{
+    class Mphasis
+    {
+        static void Main(String[] args)
+        {
+            int a = 100;
+            Type t = a.GetType();
+            Console.WriteLine(t);
+            //get Assembly then
+            t = typeof(System.String);
+            Console.WriteLine(t.Assembly);
+        }
+    }
+}==============================================================
+
+Refection with type 
+
+using System;
+namespace Demo_Mphasis
+{
+    class Mphasis
+    {
+        static void Main(String[] args)
+        {
+           Type t = typeof(System.String);
+            Console.WriteLine("Full name:{0}",t.FullName);
+            Console.WriteLine("Base type:{0}",t.BaseType);
+            Console.WriteLine("Class types:{0}",t.IsClass);
+            Console.WriteLine("IsEnum type:{0}",t.IsEnum);
+        }
+    }
+}===========================================================
+Reflection with Print Constructor
+
+using System;
+using System.Reflection;
+namespace Demo_mphasis
+{
+    class Mphasis
+    {
+        static void Main(String[]args)
+        {
+            Type t = typeof(System.String);
+            Console.WriteLine("Constructor of {0}type.. ",t);
+            ConstructorInfo[] ci = t.GetConstructors(BindingFlags.Public | BindingFlags.Instance);
+            foreach (ConstructorInfo c in ci)
+            {
+                Console.WriteLine(c);
+            }
+        }
+    }
+}=================================================================
+Reflection with Attribute
+using System;
+using System.Reflection;
+using System.Reflection.Emit;
+    [assembly:CLSCompliant(true)]
+   
+    class Mphasis
+    {
+        static void Main(string[] args)
+        {
+        Console.WriteLine("Welcome in Assembly attribute...");
+        }
+    }
+==================================================================
+warning 
+
+using System;
+using System.Reflection;
+using System.Reflection.Emit;
+
+[assembly:CLSCompliant(true)]
+
+//dec class and data type
+public class Welcome
+{
+    public UInt16 z;
+}
+class Mphasis
+{
+    static void Main(String[] args)
+    {
+        Console.WriteLine("Welcome in Assembly Attribute...");
+    }
+}================================================================
+Flag Attribute
+using System;
+using System.Reflection;
+using System.Reflection.Emit;
+class Mphasis
+{
+    enum Colors
+    {
+        Red = 1,
+        Blue = 2,
+        Pink = 4,
+        Green = 8
+    }
+    //enum flagsattribute
+    [Flags] enum ColorsFlags { Red = 1, Blue = 2, Pink = 4, Green = 8 }
+    static void Main(string[] args)
+    {
+        Console.WriteLine((Colors.Red | Colors.Blue).ToString());
+        Console.WriteLine((ColorsFlags.Red | ColorsFlags.Blue).ToString());
+    }
+}
+=================================================
+Custom Attribute in Reflection
+
+using System;
+using System.Reflection;
+using System.Reflection.Emit;
+
+//Define Attribute\
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Constructor | AttributeTargets.Method,AllowMultiple =true)]
+
+ //custom class that derived for, attribute class
+
+class InformationAttribute:Attribute
+{
+    public string InformationString { get; set; }   
+}
+// informationAttribute is used in Mphasis class
+[Information(InformationString ="Class")] public class student
+{
+    private int rollno;
+    private string name;
+    [Information(InformationString ="constructor")] public student(int rollno,string name)
+    {
+        this.rollno = rollno;
+        this.name = name;   
+    }
+    [Information(InformationString ="Method")] public void display()
+    {
+        Console.WriteLine("Rollno : {0}", rollno);
+        Console.WriteLine("Name :{0}",name);
+    }
+}
+
+//derived class\
+class Mphasis
+{
+    static void Main(string[] args)
+    {
+        student s = new student(100, "venkatesh");
+        s.display();
+    }
+     
+}===========================================4===7===22============================
+
+Seleralization
+
+using System;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+
+[Serializable]
+class Student
+{
+    int rollno;
+    string name;
+    public Student(int rollno, string name)
+    {
+        this.rollno = rollno;
+        this.name = name;
+    }
+}
+public class Program
+{
+    static void Main()
+    {
+        FileStream stream = new FileStream("F:\\venkat.txt", FileMode.OpenOrCreate);
+        BinaryFormatter formatter = new BinaryFormatter();
+        Student s = new Student(10, "venkatesh");
+        formatter.Serialize(stream, s);
+        stream.Close();
+    }
+}
+=========================================================================================
+ DeSeralization 
+
+using System;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+
+[Serializable]
+class Student
+{
+   public int rollno;
+    public string name;
+    public Student(int rollno, string name)
+    {
+        this.rollno = rollno;
+        this.name = name;
+    }
+}
+public class Program
+{
+    static void Main()
+    {
+        FileStream stream = new FileStream("F:\\venkat.txt", FileMode.OpenOrCreate);
+        BinaryFormatter formatter = new BinaryFormatter();
+        Student s = (Student)formatter.Deserialize(stream);
+
+        Console.WriteLine("Rollno :{0}", s.rollno);
+        Console.WriteLine("Name:{0}", s.name);
+        stream.Close();
+    }
+}
+==========================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+

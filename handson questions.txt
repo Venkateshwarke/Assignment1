@@ -1,0 +1,2201 @@
+1. Write a C# Sharp program to swap two numbers. 
+Input the First Number : 5
+Input the Second Number : 6
+Expected Output:
+After Swapping :
+First Number : 6
+Second Number : 5
+2. Write a C# Sharp program to print the output of multiplication of three numbers which will be entered by the user. 
+Input the first number to multiply: 2
+Input the second number to multiply: 3
+Input the third number to multiply: 6
+Expected Output:
+2 x 3 x 6 = 36
+3. Write a C# Sharp program to print on screen the output of adding, subtracting, multiplying and dividing of two numbers which will be entered by the user. 
+Input the first number: 25
+Input the second number: 4
+Expected Output:
+25 + 4 = 29
+25 - 4 = 21
+25 x 4 = 100
+25 / 4 = 6
+25 mod 4 = 1
+4. Write a C# Sharp program that takes four numbers as input to calculate and print the average. 
+Test Data:
+Enter the First number: 10
+Enter the Second number: 
+from Arvind Kumar Trainer to All Participants:
+5. Write a C# Sharp program to that takes three numbers(x,y,z) as input and print the output of (x+y).z and x.y + y.z. 
+Test Data:
+Enter first number - 5
+Enter second number - 6
+Enter third number - 7
+Expected Output:
+Result of specified numbers 5, 6 and 7, (x+y).z is 77 and x.y + y.z is 72
+6. Write a C# Sharp program that takes an age (for example 20) as input and prints something as "You look older than 20". 
+Test Data:
+Enter your age - 25
+Expected Output:
+You look older than 25
+7. Write a C# program to that takes a number as input and display it four times in a row (separated by blank spaces), and then four times in the next row, with no separation. You should do it two times: Use Console. Write and then use {0}. 
+Test Data:
+Enter a digit: 25
+Expected Output:
+25 25 25 25
+25252525
+25 25 25 25
+25252525
+from Arvind Kumar Trainer to All Participants:
+8. Write a C# program that takes a number as input and then displays a rectangle of 3 columns wide and 5 rows tall using that digit. 
+Test Data:
+Enter a number: 5
+Expected Output:
+555
+5 5
+5 5
+5 5
+555
+from Arvind Kumar Trainer to All Participants:
+9. Write a C# program to convert from celsius degrees to Kelvin and Fahrenheit. 
+Test Data:
+Enter the amount of celsius: 30
+Expected Output:
+Kelvin = 303
+Fahrenheit = 86
+10. Write a C# program to check two given integers and return true if one is negative and one is positive. 
+Input first integer:
+-5
+Input second integer:
+11.
+Check if one is negative and one is positive:
+True
+from Arvind Kumar Trainer to All Participants:
+12. Write a C# program to compute the sum of two given integers, if two values are equal then return the triple of their sum. 
+13.. Write a C# program to get the absolute value of the difference between two given numbers. Return double the absolute value of the difference if the first number is greater than second number. 
+14. C# program to convert a hexadecimal number into a decimal number
+15. C# program to convert a decimal number into a hexadecimal number
+16. C# program to convert a meter into kilo-meter and vice versa
+17. C# program to convert a temperature from Celsius to Fahrenheit
+18. C# program to convert a temperature from Fahrenheit into Celsius
+19. C# program to convert entered days into years, weeks, and days
+20. C# program to convert the US dollar into Indian rupees
+21. C# program to print digits of a number into words
+*******************************************************************************************************************************
+
+1. C# program to read two number and find maximum, minimum number 
+2. C# program to find largest of 3 numbers (using nesed, if..else.if)
+3. C# program to  compare with character 
+4. program to check given strings are equal or not using (==) opt
+5. Wap to enter the two number and check which is biggest.
+6. Wap to enter the year and check is leap or not
+7. Input marks in three subjects calculate total marks and percentage conditions are
+ per <35         fail,                           35-45                 third
+45-60      second,                 60 and above       first
+8.  Input basic pay and calculate total pay (basicpay+bonus) conditions are
+    pay                             bonus
+<1000                10%
+1000-5000                             9%
+5000 and above                        7%
+9.    Input age of a person conditions are
+    age<12                         child
+    12-25             young
+    25-50            adult
+    50 and above                       old
+10.  Wap to enter the 4 number and
+
+
+
+
+
+
+
+
+1.Print your name 5 times.
+2.Print the series  2 4 6 8 10.
+3.Print the series  1 3 5 7 9 ------- n terms.
+4.Calculate the factorial of a no.
+5.Find the sum of n terms of the series 
+      0+1+2+3+4+-------+n.
+6.Print the sum of five natural nos.
+7.Print odd nos upto 50 
+8.Print the series in reverse order from 10 to 1.
+9.Print all the uppercase letters from A to Z.
+10. Print the table of any given number
+11. Print the prime between 1 to 50
+12. Wap to print the sum of digit(123=6)
+13. Wap to print the fibonacci Series from 1 to 20
+14. Wap to print 1 to 20 and sum all even,or odd number between
+      them.
+
+
+********************************************************************************************************************************************
+1. Write a program in C# Sharp to store elements in an array and print it. 
+Test Data:
+Input 10 elements in the array:
+element - 0 : 1
+element - 1 : 1
+element - 2 : 2
+.......
+Expected Output :
+Elements in array are: 1 1 2 3 4 5 6 7 8 9
+2. Write a program in C# Sharp to read n number of values in an array and display it in reverse order. 
+Test Data :
+Input the number of elements to store in the array :3
+Input 3 number of elements in the array :
+element - 0 : 2
+element - 1 : 5
+element - 2 : 7
+Expected Output:
+The values store into the array are:
+2 5 7
+The values store into the array in reverse are :
+7 5 2
+3. Write a program in C# Sharp to find the sum of all elements of the array. 
+Test Data :
+Input the number of elements to be stored in the array :3
+Input 3 elements in the array :
+element - 0 : 2
+element - 1 : 5
+element - 2 : 8
+Expect
+from Arvind Kumar Trainer to All Participants:
+Expected Output :
+Sum of all elements stored in the array is : 15
+4. Write a program in C# Sharp to copy the elements one array into another array. Go to the editor
+Test Data :
+Input the number of elements to be stored in the array :3
+Input 3 elements in the array :
+element - 0 : 15
+element - 1 : 10
+element - 2 : 12
+Expected Output:
+The elements stored in the first array are :
+15 10 12
+The elements copied into the second array are :
+15 10 12
+from Arvind Kumar Trainer to All Participants:
+5. Write a program in C# Sharp to count a total number of duplicate elements in an array. 
+Test Data :
+Input the number of elements to be stored in the array :3
+Input 3 elements in the array :
+element - 0 : 5
+element - 1 : 1
+element - 2 : 1
+Expected Output :
+Total number of duplicate elements found in the array is : 1
+6. Write a program in C# Sharp to print all unique elements in an array.
+Test Data :
+Input the number of elements to be stored in the array :3
+Input 3 elements in the array :
+element - 0 : 1
+element - 1 : 5
+element - 2 : 1
+Expected Output :
+The unique elements found in the array are :
+5
+from Arvind Kumar Trainer to All Participants:
+7. Write a program in C# Sharp to merge two arrays of same size sorted in ascending order. Go to the editor
+Test Data :
+Input the number of elements to be stored in the first array :3
+Input 3 elements in the array :
+element - 0 : 1
+element - 1 : 2
+element - 2 : 3
+Input the number of elements to be stored in the second array :3
+Input 3 elements in the array:
+element - 0 : 1
+element - 1 : 2
+element - 2 : 3
+Expected Output:
+The merged array in ascending order is :
+1 1 2 2 3 3
+from Arvind Kumar Trainer to All Participants:
+8. C# program to tranpose a matrix
+9.  C# program to print the upper triangular matrix
+10. C# find the larget element in the matrix.
+11. C# program to swap of two arrays
+12. Create a Arraylist and input elements and Sort them in asceding,descending , Add(),remove(),removeAt(),removeRange() method to manage the arraylist
+13.  Use List to create 5 elements and show total number of element after adding, removing 
+14 . Create a List for string and use the Count() method to see number of elements in List<string>
+15.  C# program to Add the elements in List <int> and do Sorting with ascendig or Descending order .    
+    -also remove a spefic items
+    -also remove more than one items using removeRange()
+16. C# Program to Add the elemnt in Linked List and do the all operatons, AddFirst,AddLast ,Remove, count,contains
+17. C# program to use Dictionary <KV> to add the number items and display it based on datatypes
+        -<string,int>
+        -<string,float>
+        -<string,double>
+        -Sort the item based 
+from Arvind Kumar Trainer to All Participants:
+18.C# program to create HashSet to add the 10 elements  and access them using foreach loop
+        -after that remove elemets from hasset using
+            -Remove(T)
+            -RemoveWhere()
+            -Clear()
+        -Show all the element after applied this method
+
+**********************************************************************************************************************************************
+
+
+Today Assignment: Function, enum,structure, Exception handling
+==========================================================================
+1. Write a program in C# Sharp to declare a simple structure and use of static fields inside a structure. 
+Expected Output :
+Structure with the use of static fields inside a structure :                                                  
+The sum of x and y is 40 
+Click me to see the solution
+
+Ans:-using System;
+
+struct w3rStruct
+{
+public static int x = 15;
+public static int y = 25;
+}
+class strucExer2
+    {
+    public static void Main()
+        {
+        Console.Write("\n\nStructure with the use of static fields inside a structure :\n");	
+        int sum = w3rStruct.x + w3rStruct.y;
+        Console.WriteLine("The sum of x and y is {0}\n",sum);
+        }
+    }
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+2. Write a program in C# Sharp to create a nested structure to store two data for an employee in an array. 
+Test Data:
+Create a nested structure and store data in an array :                         
+Name of the employee : H.Rana                                                    
+Input day of the birth : 05                                                      
+Input month of the birth : 02           
+Input year for the birth : 58                                                    
+                                                                                 
+Name of the employee : S.Mathur                                                  
+Input day of the birth : 04                                                      
+Input month of the birth : 08                                                    
+Input year for the birth : 59 
+
+Ans:-
+
+using System;
+    class strucExer3
+    {
+	//employee is a structure of members eName and dtObirth
+        struct employee
+        {
+            public string eName;
+            public dtObirth Date;
+        }
+	//dtObirth is a nested structure of employee
+        struct dtObirth
+        {
+            public int Day;
+            public int Month;
+            public int Year;
+        }  
+        static void Main(string[] args)
+        {
+             
+            int dd=0, mm=0, yy=0;
+            int total = 2;
+			Console.Write("\n\nCreate a nested structure and store data in an array :\n");	
+            employee[] emp = new employee[total];
+ 
+            for (int i = 0; i < total; i++)
+            {
+                Console.Write("Name of the employee : ");
+                string nm = Console.ReadLine();
+                emp[i].eName = nm;
+ 
+                Console.Write("Input day of the birth : ");
+                dd = Convert.ToInt32(Console.ReadLine());
+                emp[i].Date.Day = dd;
+ 
+                Console.Write("Input month of the birth : ");
+                mm = Convert.ToInt32(Console.ReadLine());
+                emp[i].Date.Month = mm;
+ 
+                Console.Write("Input year for the birth : ");
+                yy = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine();
+                emp[i].Date.Year = yy;
+            }
+        }
+    }
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+3. Write a program in C# Sharp to create a structure and assign the value and call it. Go to the editor
+Expected Output:
+Create a structure and Assign the Value and call it :                                                    
+Assign in Class:       x:7500,   y:9500                                          
+Assign in Structure:   x:750,    y:950 
+
+Ans:-using System.IO;
+using System;
+// crate a class
+class aNewClass
+{
+    public int x;
+    public int y;
+}
+//create a structure 
+struct aNewStruc
+{
+    public int x;
+    public int y;
+}
+class strucExer4
+{
+    static void Main(string[] args)
+    {
+        Console.Write("\n\nCreate a structure and assign the value and call it :\n");
+        aNewClass ClassNum1 = new aNewClass();
+        ClassNum1.x = 75;
+        ClassNum1.y = 95;
+        //	ClassNum2 is ClassNum1 type	
+        aNewClass ClassNum2 = ClassNum1;
+        ClassNum1.x = 7500;
+        ClassNum1.y = 9500;
+        Console.WriteLine("\nAssign in Class:       x:{0},   y:{1}", ClassNum2.x, ClassNum2.y);
+        aNewStruc StrucNum1 = new aNewStruc();
+        StrucNum1.x = 750;
+        StrucNum1.y = 950;
+        //	StrucNum2 is StrucNum1 type			
+        aNewStruc StrucNum2 = StrucNum1;
+        StrucNum1.x = 75;
+        StrucNum1.y = 95;
+        Console.WriteLine("Assign in Structure:   x:{0},    y:{1}\n\n", StrucNum2.x, StrucNum2.y);
+
+        Console.ReadLine();
+    }
+}
+----------------------------------------------------------------------------------------------------------------------------------------------
+4. Write a program in C# Sharp to show what happen when a structure and a class instance is passed to a method. G
+Expected Output:
+When a structure and a class instance is passed to a method :                       
+ns.n = 5 nc.n = 8
+Ans:-using System;
+class newClass
+{
+    public int n;
+}
+struct newStruct
+{
+    public int n;
+}
+class strucExer5
+{
+    public static void trackStruct(newStruct st)
+    {
+        st.n = 8;
+    }
+    public static void tracClass(newClass cl)
+    {
+        cl.n = 8;
+    }
+    public static void Main()
+    {
+        Console.Write("\nWhen a structure and a class instance is passed to a method :");
+        newStruct ns = new newStruct();
+        newClass nc = new newClass();
+        ns.n = 5;
+        nc.n = 5;		
+        trackStruct(ns);		
+        tracClass(nc);
+        Console.WriteLine("\nns.n = {0}", ns.n);
+        Console.WriteLine("nc.n = {0}\n", nc.n);
+    }
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5. Write a program in C# Sharp to declares a structure with a property, a method, and a private field. 
+Expected Output:
+Declares a structure with a property, a method, and a private field :               
+ The stored value is: 15 
+Ans:-using System;
+struct newStruct
+{
+    private int num;
+
+    public int n
+    {
+        get
+        {
+            return num;
+        }
+        set
+        {
+            if (value < 50)
+                num = value;
+        }
+    }
+    public void clsMethod()
+    {
+        Console.WriteLine("\n stored value is: {0}\n", num);
+    }
+}
+class strucExer6
+{
+    public static void Main()
+    {
+        Console.Write("Declares a structure with a property, a method, and a private field :");
+        newStruct myInstance = new newStruct();
+        myInstance.n = 15;
+        myInstance.clsMethod();
+    }
+}
+---------------------------------------------------------------------- ---------------------------------------------------------------------- ---------------------------------------------------------------------- 
+7. Write a program in C# Sharp to demonstrates structure initialization using both default and parameterized constructors. 
+Expected Output:
+Structure declares using default and parameterized constructors :                                
+newStruct 1: m = 0, n = 0                                                        
+newStruct 2: m = 25, n = 25   
+Ans:-
+
+---------------------------------------------------------------------------------------------------------------------------------------------------                                                   
+8. Write a program in C# Sharp to demonstrates structure initialization without using the new operator. 
+Expected Output :
+Structure initialization without using the new operator :                    
+--------------------------------------------------------                
+newStruct : m = 30, n = 40                                                       
+
+from Arvind Kumar Trainer to All Participants:
+9. Write a program in C# Sharp to insert the information of two books. 
+Test Data :
+Insert the information of two books :                    
+-----------------------------------------                
+Information of book 1 :                                  
+Input name of the book : BASIC                           
+Input the author : S.TROELSTRA                           
+                                                         
+Information of book 2 :                                  
+Input name of the book : C+                              
+Input the author : G.RTRTG                               
+Expected Output:
+from Arvind Kumar Trainer to All Participants:
+10. Write a program in C# Sharp to implement a method that returns a structure including calling the method and using its value. 
+Test Data :
+Method that returns a structure  :                                               
+--------------------------------------                                           
+Input the dimensions of the Square( equal length and breadth ) :                 
+length : 20                                                                      
+breadth : 40                                                                     
+Expected Output:
+from Arvind Kumar Trainer to All Participants:
+Perimeter and Area of the square :                                               
+Length:    20                                                                    
+Breadth:    40                                                                   
+Perimeter: 120   
+---------------------------------------------------------------------------------------------------------------------------------------------
+1  comparing two string in c#
+
+using System;
+class Program
+{
+    static void Main()
+    {
+        string s1 = "hello";
+        string s2 = "hello";
+
+        Console.WriteLine(string.Compare(s1, s2));
+
+    } 
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+2 compure string using Equals() in c#
+
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		string str1 = "london";
+		string str2 = "london";
+		
+		Console.WriteLine(str1.Equals(str2));
+	}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------
+3. demonstrate the example of copy method of string class in C#
+using System;
+class Program
+{
+    static void Main()
+    {
+        string s1 = "venkatesh";
+        string s2 = String.Copy(s1);
+        Console.WriteLine(s1);
+        Console.Write("/n");
+        Console.WriteLine(s2);
+
+    }
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Demonstrate the example of Indexof() method of string class in c#
+
+using System;
+
+    class Test
+    {
+        public static void Main(string[] args)
+        {
+
+            string str = "Ice cream";
+
+            // returns index of substring cream
+            int result = str.IndexOf("cream");
+
+            Console.WriteLine(result);
+
+            Console.ReadLine();
+        }
+    }
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+5.explain lastindexof() method of string class with example in c#
+
+using System;
+public class StringExample
+{
+    public static void Main(string[] args)
+    {
+        string s1 = "Hello";
+        int index = s1.LastIndexOf('o');
+        Console.WriteLine(index);
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+6. Explain string.split() method of string class in c#
+
+using System;
+class Program
+{
+    static void Main()
+    {
+        //Trim whitespace
+        string s1 = "This is my first program";
+        string[] s2 = s1.Split(' ');
+        foreach (string i in s2)
+        {
+            Console.WriteLine(i);
+        }
+    }
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------- 
+7. how to convert sting into uppercase in c#?
+using System;
+class Program
+{
+    static void Main()
+    {
+        //Trim whitespace
+        string s1 = " This is my new program";
+        string s2 = s1.ToUpper();
+
+        Console.WriteLine(s2);
+    }
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8.how to convert sting into lowercase in c#?
+using System;
+class Program
+{
+    static void Main()
+    {
+        //Trim whitespace
+        string s1 = " This is my new program";
+        string s2 = s1.ToUpper();
+
+        Console.WriteLine(s2);
+    }
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9.how to get substring form a string in c#?
+
+using System;
+class SubStringGetter
+{
+    // main method
+    static void Main()
+    {
+        // create strings
+        string str1 = "Edpresso";
+        string str2 = "Theodore";
+        string str3 = "Programming";
+
+        // get some substrings
+        string a = str1.Substring(1);
+        string b = str2.Substring(5);
+        string c = str3.Substring(3);
+
+        // print out substrings
+        System.Console.WriteLine(a);
+        System.Console.WriteLine(b);
+        System.Console.WriteLine(c);
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. creating the file in disk newly
+
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        FileInfo file = new FileInfo(@"F:\mytest.txt");
+        file.Create();
+        Console.WriteLine("File is created successfuly....");
+    }
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.write a program to remove the file from the disk?
+
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        FileInfo file = new FileInfo(@"F:mytest.txt");
+        file.Delete();
+        Console.WriteLine("File has been deleted...");
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. write a program to create a file and add some text?
+
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        //  FileInfo file = new FileInfo(@"E:\Hrutikesh\test.txt");
+        StreamWriter mw = null;
+        string data = "hi this is file handlng in c#";
+        mw = File.CreateText(@"F:\venkya.txt");
+        mw.Write(data);
+        Console.WriteLine("File has been created with contents...");
+        mw.Close();
+    }
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4.WAP in C# to create a file with text and read the file?
+
+using System;
+using System.IO;
+class Program
+{
+    static void Main()
+    {
+        FileStream f = new FileStream("F:\\venkya.txt", FileMode.OpenOrCreate);
+        StreamReader dr = new StreamReader(f);
+        string l = dr.ReadLine();
+        Console.WriteLine(l);
+        dr.Close();
+        f.Close();
+    }
+}
+
+************************************************************************************************************************************************************
+************************************************************************************************************************************************************
+1. write a program in c to store element in array and print it?
+
+#include <stdio.h>
+int main()
+{
+   int arr1[25], i,n;
+   printf(" Input the number of elements to store in the array :");
+   scanf("%d",&n);
+   
+   printf(" Input %d number of elements in the array :\n",n);
+   for(i=0;i<n;i++)
+      {
+	  printf(" element - %d : ",i);
+	  scanf("%d",arr1+i);
+	  }
+   printf(" The elements you entered are : \n");
+   for(i=0;i<n;i++)
+      {
+	  printf(" element - %d : %d \n",i,*(arr1+i));
+	  }
+	   return 0;
+}---------------------------------------------------------------------------------------------
+
+2. write a c program to find  maximum and minimum element in array
+
+#include <conio.h>
+ 
+ 
+int main()
+{
+    int a[1000],i,n,min,max;
+   
+    printf("Enter size of the array : ");
+    scanf("%d",&n);
+ 
+    printf("Enter elements in array : ");
+    for(i=0; i<n; i++)
+    {
+        scanf("%d",&a[i]);
+    }
+ 
+    min=max=a[0];
+    for(i=1; i<n; i++)
+    {
+         if(min>a[i])
+		  min=a[i];   
+		   if(max<a[i])
+		    max=a[i];       
+    }
+     printf("minimum of array is : %d",min);
+          printf("\nmaximum of array is : %d",max);
+ 
+ 
+    return 0;
+}
+----------------------------------------------------------------------------------------------
+3.write a program in c to find the seconf largest element in an array
+
+#include <stdio.h>
+
+int main()
+{
+    int arr[MAX_SIZE], size, i;
+    int max1, max2;
+
+    printf("Enter size of the array (1-10): ");
+    scanf("%d", &size);
+ 
+    printf("Enter elements in the array: ");
+    for(i=0; i<size; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
+
+    max1 = max2 = INT_MIN;
+
+    for(i=0; i<size; i++)
+    {
+        if(arr[i] > max1)
+        {
+            max2 = max1;
+            max1 = arr[i];
+        }
+        else if(arr[i] > max2 && arr[i] < max1)
+        {
+            max2 = arr[i];
+        }
+    }
+
+    printf("First largest = %d\n", max1);
+    printf("Second largest = %d", max2);
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+4. write a c program to find even odd element in array
+
+
+#include<stdio.h>
+ int main()
+{
+    int a[1000],i,n,even=0,odd=0;
+   
+    printf("Enter size of the array : ");
+    scanf("%d",&n);
+ 
+    printf("Enter elements in array : ");
+    for(i=0; i<n; i++)
+    {
+        scanf("%d",&a[i]);
+    }
+ 
+     for(i=0; i<n; i++)
+    {
+          if(a[i]%2==0)
+          even++;
+          else
+          odd++;
+		           
+    }
+     printf("even numbers in array: %d",even);
+     printf("\n odd numbers in array: %d",odd);
+ 
+ 
+    return 0;
+}
+==================================================================16/6/22=====================================================
+1. C# Program to Create a Directory
+using System;
+using System.IO;
+
+class GFG
+{
+
+    public static void Main()
+    {
+
+        Directory.CreateDirectory("F:\\venkatesh");
+
+        Console.WriteLine("Created");
+    }
+}
+-------------------------------------------------------------------------------------------
+2. C# Program to Read a Text File
+3. C# Program to List Files in Directory
+
+using System;
+using System.IO;
+
+class Listfile
+{
+   static void Main(string[] args)
+    {
+        DirectoryInfo place = new DirectoryInfo(@"G:\ven");
+
+        FileInfo[] Files = place.GetFiles();
+        Console.WriteLine("Files are:");
+        Console.WriteLine();
+
+        // Display the file names
+        foreach (FileInfo i in Files)
+        {
+            Console.WriteLine("File Name - {0}", i.Name);
+        }
+    }
+}
+--------------------------------------------------------------------------------------------------------------------------
+4. C# Program to List All Available Disk Drives
+ using System;
+using System.IO;
+class Test
+{
+    public static void Main()
+    {
+        DriveInfo[] driverslist = DriveInfo.GetDrives();
+        foreach (DriveInfo d in driverslist)
+        {
+            Console.WriteLine("Drive {0}", d.Name);
+            Console.WriteLine("  File type: {0}", d.DriveType);
+            if (d.IsReady == true)
+            {
+                Console.WriteLine(" Total size of drive:{0, 15} bytes ", d.TotalSize);
+                Console.Read();
+            }
+        }
+    }
+}
+--------------------------------------------------------------------------------------------------------------------------
+5. C# Program to Demonstrate StringReader
+using System;
+using System.IO;
+
+class Program
+{
+    const string text = @" My Name is Venkatesh Kashinath Warke
+    i am from Kolhapur
+    stay in Kasaba Bawada ";
+
+    static void Main()
+    {
+        using (StringReader reader = new StringReader(text))
+        {
+            int count = 0;
+            string textline;
+            while ((textline = reader.ReadLine()) != null)
+            {
+                count++;
+                Console.WriteLine("Line {0}: {1}", count, textline);
+            }
+            Console.ReadLine();
+        }
+    }
+}
+-----------------------------------------------------------------------------------------------------------
+6. C# Program to Demonstrate StringBuilder
+
+using System;
+using System.Text;
+
+class GFG
+{
+	public static void Main()
+	{
+		StringBuilder s = new StringBuilder("Hi ", 10);
+
+		s.Append("This");
+
+		s.AppendLine("is_my ");
+
+		s.Append("New_program");
+		Console.WriteLine(s);
+	}
+}
+
+7. C# Program to Demonstrate BinaryWriter
+8 .C# Program to Traverse the Singly Linked List(Convert C code into C#)
+9. C# program to find the sum of the left diagonal of the matrix
+10. C# program to interchange the columns of the matrix
+11. C# program for swapping of two arrays
+12. C# program to insert an item into a sorted array
+13. C# program to delete an item from a sorted array  
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+1. print 1 to 15 using while loop
+
+
+using System;
+
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			int a;
+			a = 1;
+			while (a <= 15)
+			{
+				Console.WriteLine(a);
+				a++;
+			}
+			Console.ReadLine();
+		}
+	}
+-------------------------------------------------------------------------------------------------------------------------------
+2. print 1 to 15 using do while loop
+
+using System;
+
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			int a;
+			a = 1;
+			do
+			{
+				Console.WriteLine(a);
+				a++;
+			} while (a <= 15);
+			//wait to hit any key to exit the program
+			Console.ReadKey();
+		}
+	}
+---------------------------------------------------------------------------------------------------------------------------------
+3..
+using System;
+
+namespace ConsoleApplication1
+{
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i = 0;
+            int j = 0;
+            int flag = 0;
+
+            for (i = 2; i <= 30; i++)
+            {
+                j = 2;
+                flag = 0;
+                while (j <= (i / 2))
+                {
+                    if (i % j == 0)
+                    {
+                        flag = 1;
+                        break;
+                    }
+                    j++;
+                }
+
+                if (flag == 0)
+                    Console.Write(i + " ");
+
+            }
+            Console.WriteLine();
+        }
+    }
+}
+-------------------------------------------------------------------------------------------------------------------------------------------
+4.
+
+using System;
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i     = 0;
+
+            for (i = 1900; i <= 1950; i++)
+            {   
+                if( 
+                    ((i % 4==0) && (i % 100 !=0)) ||
+                    ((i % 4==0) && (i % 100 ==0) && (i%400==0)) 
+                  )
+                {
+                    Console.Write(i + " ");
+                }
+            }
+
+            Console.WriteLine();
+        }
+    }
+---------------------------------------------------------------------------------------------------------------------- ------------------------
+5.
+using System;
+  class Program
+    {
+        static void Main()
+        {
+            int i = 0;
+            Console.WriteLine("Even Numbers :");
+            for (i = 1; i <= 30; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.Write(i + " ");
+                }
+            }
+            Console.WriteLine("\nOdd Numbers :");
+            for (i = 1; i <= 30; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    Console.Write(i + " ");
+                }
+            }
+            Console.WriteLine();
+        }
+    }
+--------------------------------------------------------------------------------------------------------------------------------------------------
+6.
+
+using System;
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int number, rem, temp, sum = 0;
+            Console.WriteLine(" Check Number Is Armstrong Or Not     ");
+            Console.Write("Enter the Number To Check :: ");
+            number = int.Parse(Console.ReadLine());
+
+            temp = number;
+            while (number > 0)
+            {
+                rem = number % 10;
+                sum = sum + (rem * rem * rem);
+                number = number / 10;
+            }
+            if (temp == sum)
+                Console.WriteLine(temp + " Is A Armstrong Number");
+            else
+                Console.WriteLine(temp + " Is Not A Armstrong Number");
+            Console.ReadLine();     
+        }
+    }
+----------------------------------------------------------------------------------------------------------------------------------------------------
+7.
+using System;
+public class Palindrome
+{
+    public static void Main()
+    {
+        int n, r, sum = 0, temp;
+        Console.Write("Enter the Number: ");
+        n = int.Parse(Console.ReadLine());
+        temp = n;
+        while (n > 0)
+        {
+            r = n % 10;
+            sum = (sum * 10) + r;
+            n = n / 10;
+        }
+        if (temp == sum)
+            Console.Write("Number is Palindrome.");
+        else
+            Console.Write("Number is not Palindrome");
+    }
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------
+8.
+
+using System;
+public class Fibonacci
+{
+    public static void Main()
+    {
+        int n1 = 0, n2 = 1, n3, i, number;
+        Console.Write("Enter the number of elements: ");
+        number = int.Parse(Console.ReadLine());
+        Console.Write(n1 + " " + n2 + " "); 
+        for (i = 2; i < number; ++i) 
+        {
+            n3 = n1 + n2;
+            Console.Write(n3 + " ");
+            n1 = n2;
+            n2 = n3;
+        }
+    }
+}
+------------------------------------------------------------------------------------------------------------
+2.
+
+using System;
+using System.Linq;
+public class Demo
+{
+    public static void Main()
+    {
+        DateTime date1 = new DateTime(2018, 7, 15, 08, 15, 20);
+        DateTime date2 = new DateTime(2018, 8, 17, 11, 14, 25);
+        TimeSpan ts = date2 - date1;
+        Console.WriteLine("No. of Hours (Difference) = {0}", ts.TotalHours);
+    }
+}
+--------------------------------------------------------------------------------------------------
+3
+using System;
+using System.IO;
+using System.Text;
+
+class filexercise3
+{
+    public static void Main()
+    {
+        string fileName = @"test.txt";
+        try
+        {
+            if (File.Exists(fileName))
+            {
+                File.Delete(fileName);
+            }
+            Console.Write("\n\n Append some text to an existing file  :\n");
+            using (StreamWriter fileStr = File.CreateText(fileName))
+            {
+                fileStr.WriteLine(" Hello and Welcome");
+                fileStr.WriteLine(" It is the first content");
+                fileStr.WriteLine(" of the text file mytest.txt");
+            }
+            using (StreamReader sr = File.OpenText(fileName))
+            {
+                string s = "";
+                Console.WriteLine(" Here is the content of the file mytest.txt : ");
+                while ((s = sr.ReadLine()) != null)
+                {
+                    Console.WriteLine(s);
+                }
+                Console.WriteLine("");
+            }
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"mytest.txt", true))
+            {
+                file.WriteLine(" This is the line appended at last line.");
+            }
+            using (StreamReader sr = File.OpenText(fileName))
+            {
+                string s = "";
+                Console.WriteLine(" Here is the content of the file after appending the text : ");
+                while ((s = sr.ReadLine()) != null)
+                {
+                    Console.WriteLine(s);
+                }
+                Console.WriteLine("");
+            }
+
+        }
+        catch (Exception MyExcep)
+        {
+            Console.WriteLine(MyExcep.ToString());
+        }
+    }
+}
+==========================================================================================================
+1.Singly Link List
+
+
+include <stdio.h>
+#include <stdlib.h>
+
+struct node 
+{
+    int num;                      
+    struct node *nextptr;          
+}*stnode;
+
+void createNodeList(int n); 
+void displayList();         
+
+int main()
+{
+    int n;	
+    printf(" Input the number of nodes : ");
+    scanf("%d", &n);
+    createNodeList(n);
+    printf("\n Data entered in the list : \n");
+    displayList();
+    return 0;
+}
+void createNodeList(int n)
+{
+    struct node *fnNode, *tmp;
+    int num, i;
+    stnode = (struct node *)malloc(sizeof(struct node));
+
+    if(stnode == NULL) //check whether the fnnode is NULL and if so no memory allocation
+    {
+        printf(" Memory can not be allocated.");
+    }
+    else
+    {
+// reads data for the node through keyboard
+
+        printf(" Input data for node 1 : ");
+        scanf("%d", &num);
+        stnode->num = num;      
+        stnode->nextptr = NULL; // links the address field to NULL
+        tmp = stnode;
+// Creating n nodes and adding to linked list
+        for(i=2; i<=n; i++)
+        {
+            fnNode = (struct node *)malloc(sizeof(struct node));
+            if(fnNode == NULL)
+            {
+                printf(" Memory can not be allocated.");
+                break;
+            }
+            else
+            {
+                printf(" Input data for node %d : ", i);
+                scanf(" %d", &num);
+ 
+                fnNode->num = num;      
+                fnNode->nextptr = NULL; 
+ 
+                tmp->nextptr = fnNode; 
+                tmp = tmp->nextptr; 
+            }
+        }
+    }
+}
+void displayList()
+{
+    struct node *tmp;
+    if(stnode == NULL)
+    {
+        printf(" List is empty.");
+    }
+    else
+    {
+        tmp = stnode;
+        while(tmp != NULL)
+        {
+            printf(" Data = %d\n", tmp->num);       
+            tmp = tmp->nextptr;                  
+        }
+    }
+} 
+==================================================================================================================
+2. 
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node 
+{
+    int num;                   
+    struct node *nextptr;       
+}*stnode;
+
+void createNodeList(int n);     
+void NodeInsertatBegin(int num);	           
+void displayList();             
+ 
+int main()
+{
+    int n,num;
+    printf(" Input the number of nodes : ");
+    scanf("%d", &n);
+    createNodeList(n);
+    printf("\n Data entered in the list are : \n");		
+    displayList();
+    printf("\n Input data to insert at the beginning of the list : ");
+    scanf("%d", &num);
+    NodeInsertatBegin(num);
+    printf("\n Data after inserted in the list are : \n");		
+    displayList();
+
+    return 0;
+}
+void createNodeList(int n)
+{
+    struct node *fnNode, *tmp;
+    int num, i;
+ 
+    stnode = (struct node *)malloc(sizeof(struct node));
+    if(stnode == NULL) //check whether the stnode is NULL and if so no memory allocation
+    {
+        printf(" Memory can not be allocated.");
+    }
+    else
+    {
+// reads data for the node through keyboard
+        printf(" Input data for node 1 : ");
+        scanf("%d", &num);
+        stnode-> num = num;      
+        stnode-> nextptr = NULL; //Links the address field to NULL
+        tmp = stnode;
+ 
+//Creates n nodes and adds to linked list
+        for(i=2; i<=n; i++)
+        {
+            fnNode = (struct node *)malloc(sizeof(struct node));
+ 
+
+            if(fnNode == NULL) //check whether the fnnode is NULL and if so no memory allocation
+            {
+                printf(" Memory can not be allocated.");
+                break;
+            }
+            else
+            {
+                printf(" Input data for node %d : ", i);
+                scanf(" %d", &num);
+                fnNode->num = num;      
+                fnNode->nextptr = NULL; 
+                tmp->nextptr = fnNode; 
+                tmp = tmp->nextptr;
+            }
+        }
+    }
+} 
+
+void NodeInsertatBegin(int num)
+{
+    struct node *fnNode;
+    fnNode = (struct node*)malloc(sizeof(struct node));
+    if(fnNode == NULL)
+    {
+        printf(" Memory can not be allocated.");
+    }
+    else
+    {
+        fnNode->num = num; //Links the data part
+        fnNode->nextptr = stnode; //Links the address part
+        stnode = fnNode; //Makes stnode as first node
+    }
+}
+
+void displayList()
+{
+    struct node *tmp;
+    if(stnode == NULL)
+    {
+        printf(" No data found in the list.");
+    }
+    else
+    {
+        tmp = stnode;
+        while(tmp != NULL)
+        {
+            printf(" Data = %d\n", tmp->num);
+            tmp = tmp->nextptr;             
+        }
+    }
+====================================================================================================22-6-22=========================
+Q.  c sharp program to demonstrate class and object creation
+
+using System;
+class User
+{
+    //dec all data member and method
+    int id;
+    String name;
+    static void Main()
+    {
+        User u1 = new User();
+        u1.id = 100;
+        u1.name = "Ramakrishana";
+        Console.WriteLine("Id {0}", u1.id);
+        Console.WriteLine("Name:{0}", u1.name);
+}
+
+==================================================================================
+Q. THIS keyword example
+
+using System;
+class User
+{
+    //dec all data member and method
+   public int id;
+   public String name;
+    //method
+    public void GetValue(int id, String name)
+    {
+        this.id = id;
+        this.name = name;
+    }
+    //method to display it
+    public void Show()
+    {
+        Console.WriteLine("id {0}, name={1}", id, name);
+    }
+}
+class Welcome
+{ 
+    static void Main()
+    {
+        User u1 = new User();
+        u1.GetValue(101, "Deepa");
+        User u2 = new User();
+        u2.GetValue(102, "Rama");
+        u1.Show();
+        u2.Show();
+    }
+}
+==========================================================================
+Q. Single inheritance 
+using System;
+class A
+{
+    public void Show()
+    {
+        Console.WriteLine("Welcome in base class");
+    }
+}
+class B:A
+{
+    public void Display()
+    {
+        Console.WriteLine("Welcome in child class method");
+    }
+}
+class TEst
+{
+    static void Main()
+    {
+        //obect of B
+        B b1 = new B();
+        b1.Show();
+        b1.Display();
+    }
+}
+===============================================================================
+Q. Multilevel inheritane
+
+using System;
+public class Holiday
+{
+    public void Tour()
+    {
+        Console.WriteLine("Planning  to go Goa");
+    }
+}
+public class Food:Holiday
+{
+    public void Eat()
+    {
+        Console.WriteLine("Eating seets in beaches..");
+    }
+}
+public class Sleep:Food
+{
+    public void Sleeping()
+    {
+        Console.WriteLine("Sleeping on the sands");
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Sleep s = new Sleep();
+        s.Tour();
+        s.Eat();
+        s.Sleeping();
+    }
+}
+=======================================================================
+Q. Simple interface example
+=======================================================================
+
+using System;
+interface a
+{
+    void Display();
+    void sum();
+}
+class callme : a
+{
+    public void Display()
+    {
+        Console.WriteLine("hi this is interface method");
+
+    }
+    public void sum()
+    {
+        Console.WriteLine("Another method of interface");
+    }
+}
+class prg
+{
+    static void Main()
+    {
+        callme c = new callme();
+        c.Display();
+        c.sum();
+    }
+}
+----------------===============================
+Q.Same method in multiple interface
+----------------===============================
+
+using System;
+interface IUser
+{
+    void GetDetails(String x);
+}
+class User : IUser
+{
+    public void GetDetails(String a)
+    {
+        Console.WriteLine("Name :{0}",a);
+    }
+
+}
+class User1:IUser
+{
+    public void GetDetails(string a)
+    {
+        Console.WriteLine("Location:{0}", a);
+
+    }
+}
+class Prg
+{
+    static void Main()
+    {
+        IUser u = new User();
+        u.GetDetails("Priyanka");
+        IUser ul = new User1();
+        u.GetDetails("Delhi");
+        Console.ReadLine();
+    }
+
+}================================================
+Q.write a c sharp program to demonstrate simple example of abstract class
+
+using System;
+    abstract class Animal
+    {
+        // abstract method
+        public abstract void makeSound();
+    }
+    // inheriting from abstract class
+    class Dog : Animal
+    {
+        // provide implementation of abstract method
+        public override void makeSound()
+        {
+            Console.WriteLine("Bark");
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // create an object of Dog class
+            Dog obj = new Dog();
+            obj.makeSound();
+            Console.ReadLine();
+        }
+    }
+=======================================================
+Q.C# program to implement the same abstract method in multiple classes
+
+
+using System;
+
+abstract class Abs
+{
+    //Method Declaration
+    public abstract void Method();
+}
+class Sample1 : Abs
+{   //Method definition
+    public override void Method()
+    {
+        Console.WriteLine("Sample1:Method() called");
+    }
+}
+class Sample2 : Abs
+{
+    //Method definition
+    public override void Method()
+    {
+        Console.WriteLine("Sample2:Method() called");
+    }
+}
+class Program
+{
+    public static void Main(String[] args)
+    {
+        Abs M;
+
+        M = new Sample1();
+        M.Method();
+
+        M = new Sample2();
+        M.Method();
+    }
+}
+================================================================
+Q.C# Program to Inherit an Abstract Class and Interface in the Same Class
+
+using System;
+ 
+// Abstract class
+abstract class Abstract_Class
+{
+    // Method declaration in abstract class
+    public abstract void abstract_method();
+}
+
+// Interface
+interface Interface
+{
+    // Method declaration in interface
+    void interface_method();
+}
+// Here, GFg class inherit abstract class and interface
+class GFG : Abstract_Class, Interface
+{
+    // Method definition for abstract method
+    public override void abstract_method()
+    {
+        Console.WriteLine("I am the method of abstract class");
+    }
+    // Method definition for interface
+    public void interface_method()
+    {
+        Console.WriteLine("I am the method of interface");
+    }
+}
+class venk
+{
+
+   // Driver code
+    public static void Main(String[] args)
+    {
+
+        // Creating objects
+        Abstract_Class ac = new GFG();
+        Interface inf = new GFG();
+
+        // Calling the methods of abstract class
+        // and interface
+        ac.abstract_method();
+        inf.interface_method();
+    }
+}
+===============================================================================
+Q. C# program to print properties of the specified class using PropertyInfo class
+
+using System;
+using System.Reflection;
+
+class Student
+{
+    int id;
+    string name;
+
+    public int Id
+    {
+        get { return id; }
+        set { id = value; }
+    }
+
+    public string Name
+    {
+        get { return name; }
+        set { name = value; }
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Type type = typeof(Student);
+
+        Console.WriteLine("Properties of Student class:");
+        PropertyInfo[] properties = type.GetProperties();
+        foreach (PropertyInfo property in properties)
+        {
+            Console.WriteLine("\t" + property);
+        }
+    }
+}
+=============================================================================
+Q.C# Program to Check a Specified Class is an Abstract Class or Not
+using System;
+using System.Reflection;
+
+// Declare an abstract class named Geeks
+abstract class venk
+{
+
+	// Abstract method
+	public abstract void venkmethod();
+}
+
+class GFG
+{
+	static void Main()
+	{
+		// Get the type of class by using typeof() function
+		// Check the class is abstract or not by using
+		// IsAbstract property
+		if (typeof(venk).IsAbstract == true)
+		{
+			Console.WriteLine("This is abstract");
+		}
+		else
+		{
+			Console.WriteLine("This is not abstract");
+		}
+	}
+}==============================================================================
+Q.C# Program to Demonstrate the Static Constructor in Structure
+
+using System;
+
+// Create a structure
+public struct venk
+{
+
+	// Static method names GFG
+	static venk()
+	{
+		Console.WriteLine("Hello! Static constructor is called");
+	}
+
+	// Non static method
+	public venk(int variable)
+	{
+		Console.WriteLine("Hello! Non-Static constructor is called");
+	}
+}
+
+// Driver code
+class Demo
+{
+
+	static void Main(string[] args)
+	{
+
+		// Create the object for
+		// the structure
+		venk obj = new venk(2);
+	}
+}
+=============================================================================
+Q.C# program to demonstrate method overloading based on the number of arguments
+
+using System;
+
+class MethodOver
+{
+    static int Sum(int a, int b)
+    {
+        int r = 0;
+
+        r = a + b;
+        return r;
+    }
+    static int Sum(int a, int b, int c)
+    {
+        int r = 0;
+
+        r = a + b + c;
+        return r;
+    }
+    static int Sum(int a, int b, int c, int d)
+    {
+        int r = 0;
+
+        r = a + b + c + d;
+        return r;
+    }
+    static void Main(string[] args)
+    {
+        int result = 0;
+
+        result = Sum(10, 20);
+        Console.WriteLine("Sum : " + result);
+
+        result = Sum(10, 20, 30);
+        Console.WriteLine("Sum : " + result);
+
+        result = Sum(10, 20, 30, 40);
+        Console.WriteLine("Sum : " + result);
+    }
+}====================================================================================
+Q.C# program to demonstrate method overloading based on types of arguments
+using System;
+
+class MethodOver
+{
+    static double Sum(int a, int b)
+    {
+        float r = 0;
+
+        r = a + b;
+        return r;
+    }
+    static double Sum(int a, float b)
+    {
+        float r = 0;
+
+        r = a + b;
+        return r;
+    }
+
+    static double Sum(int a, double b)
+    {
+        double r = 0;
+
+        r = a + b;
+        return r;
+    }
+    static void Main(string[] args)
+    {
+        double result = 0;
+
+        //Method with integer arguments
+        result = Sum(10, 20);
+        Console.WriteLine("Sum : " + result);
+
+        //Method with integer and float arguments
+        result = Sum(10, 20.24F);
+        Console.WriteLine("Sum : " + result);
+
+        //Method with integer and double arguments
+        result = Sum(10, 27.38);
+        Console.WriteLine("Sum : " + result);
+    }
+}=============================24=6==22======================================
+Q.Protected access Specifier Example
+
+using System;
+namespace Protected_Specifier
+{
+    class access
+    {
+        // String Variable declared as protected
+        protected string name;
+        public void print()
+        {
+            Console.WriteLine("\nMy name is " + name);
+        }
+    }
+    class Program : access // Inherit access class
+    {
+        static void Main(string[] args)
+        {
+            Program p = new Program();
+            Console.Write("Enter your name:\t");
+            p.name = Console.ReadLine(); // No Error!!
+            p.print();
+            Console.ReadLine();
+        }
+    }
+}
+=========================================================================
+Q2. Private_Access_Specifiers
+
+using System;
+namespace Private_Access_Specifiers
+{
+    class access
+    {
+        // String Variable declared as private
+        private string name;
+        public void print() // public method
+        {
+            Console.WriteLine("\nMy name is " + name);
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            access ac = new access();
+            Console.Write("Enter your name:\t");
+            // raise error because of its protection level
+            ac.name = Console.ReadLine();
+            ac.print();
+            Console.ReadLine();
+        }
+    }
+}
+============================================27==6==22===========================
+Q.
+using System;
+public struct newStruct
+{
+    public int m, n;
+    public newStruct(int pt1, int pt2)
+    {
+        m = pt1;
+        n = pt2;
+    }
+}
+// Declare and initialize struct objects.
+class strucExer7
+{
+    static void Main()
+    {
+        Console.Write("\nStructure declares using default and parameterized constructors :\n");
+        newStruct myPoint1 = new newStruct();
+        newStruct myPoint2 = new newStruct(25, 25);
+
+        Console.Write("\nnewStruct 1: ");
+        Console.WriteLine("m = {0}, n = {1}", myPoint1.m, myPoint1.n);
+
+        Console.Write("newStruct 2: ");
+        Console.WriteLine("m = {0}, n = {1}", myPoint2.m, myPoint2.n);
+
+        Console.WriteLine("\nPress any key to exit.");
+        Console.ReadKey();
+    }
+}====================================================================================
+Q. using System;
+namespace Strings
+{
+     static class Stringconstants
+    {
+        public const string s1 = " ";
+        public const string s2 = ("Well done");
+    }
+    class program
+    {
+        static void Main()
+        {
+            string s3 = ("s1 = s2");
+            Console.WriteLine(s3);
+        }
+    }
+}
+======================================================================================
+Q3.
+
+public class Program
+{
+   public Program(){
+        Console.WriteLine("Constructor has been invoked");
+   }
+   public static void Main(string[] args)
+        {
+            Program p = new Program();
+        }
+    }
+
+public class Details
+    {
+          public Details(int a, int b){
+          int c = a+b;
+          Console.WriteLine("The sum is: "+ c);
+          }
+     }
+public class Program
+   {
+             public static void Main(string[] args)
+        {
+                     Details d = new Details(2, 3);
+        }
+    }
+========================================================================================
+ 1. Program to implement thread  TheadClass.
+using System;
+using System.Threading;
+class Prg
+{
+    static unsafe void Main()
+    {
+        Thread t = Thread.CurrentThread;
+        t.Name = "This is New Thread";
+        Console.WriteLine(t.Name);
+    }
+}
+===================================================
+2. Program to creating multiple thread
+
+using System;
+using System.Threading;
+class Prg
+{
+    static unsafe void Main()
+    {
+        Thread t = Thread.CurrentThread;
+        t.Name = "Mphasis Batch 22";
+        Console.WriteLine("Current Thread name:" + t.Name);
+        Console.WriteLine("Current :" + Thread.CurrentThread.Name);
+        Console.WriteLine("Thread Id {0}", t.ManagedThreadId);
+
+    }
+}
+========================================================
+3. Program for producer consumer problem
+4. Program to set priorities of thread
+
+using System;
+using System.Threading;
+
+class Pro
+{	// Main Method
+	static public void Main()
+	{
+	// Creating and initializing threads
+		Thread T1 = new Thread(work);
+		Thread T2 = new Thread(work);
+		Thread T3 = new Thread(work);
+
+		// Set the priority of threads
+		T2.Priority = ThreadPriority.Highest;
+		T3.Priority = ThreadPriority.Normal;
+
+		// Display the priority of threads
+		Console.WriteLine("The priority of T1 is: {0}",
+								T1.Priority);
+
+		Console.WriteLine("The priority of T2 is: {0}",
+								T2.Priority);
+
+		Console.WriteLine("The priority of T3 is: {0}",
+								T3.Priority);
+	}
+
+	public static void work()
+	{
+
+		// Sleep for 1 second
+		Thread.Sleep(1000);
+	}
+}
+=====================================================================================================
+5. Program to display all running thread
+6. Program for Join method
+7. Program to stop thread execution with ctrl+c
+8. Program to print Fibonacci & reverse series
+using System;
+public class FibonacciExample
+{
+    public static void Main(string[] args)
+    {
+        int n1 = 0, n2 = 1, n3, i, number;
+        Console.Write("Enter the number of elements: ");
+        number = int.Parse(Console.ReadLine());
+        Console.Write(n1 + " " + n2 + " "); //printing 0 and 1    
+        for (i = 2; i < number; ++i) //loop starts from 2 because 0 and 1 are already printed    
+        {
+            n3 = n1 + n2;
+            Console.Write(n3 + " ");
+            n1 = n2;
+            n2 = n3;
+        }
+    }
+}
+REVERSE
+using System;
+public class ReverseExample
+{
+    public static void Main(string[] args)
+    {
+        int n, reverse = 0, rem;
+        Console.Write("Enter a number: ");
+        n = int.Parse(Console.ReadLine());
+        while (n != 0)
+        {
+            rem = n % 10;
+            reverse = reverse * 10 + rem;
+            n /= 10;
+        }
+        Console.Write("Reversed Number: " + reverse);
+    }
+}
+9. Program to use Abort in specfic method in thread.
+10. To create a THREAD, we need to create an instance of Thread class (Thread class provided by System.Threading namespace) and to its constructor, we have to pass the function name as a parameter that we want the thread to execute.
+11. Program to implemnet concept of single threaded model in c#
+12. Program to implment  concept of multithreading model using Looping
+=============================================================================30=====6======22==================================
+T C# Assembly
+
+using System;
+using System.Reflection;
+public class Reflection
+{
+    public static void Main()
+    {
+        Type t = typeof(System.String);
+        Console.WriteLine(t.Assembly);
+    }
+}  
+==================================================================
+2. Create code at runtime with Reflection in .NET C# :Type
+using System;  
+public class ReflectionExample  
+{  
+   public static void Main()  
+    {  
+        int a = 10;  
+        Type type = a.GetType();  
+        Console.WriteLine(type);  
+    }  
+}
+==================================================================  
+3. Create code at runtime with Reflection in .NET C#: Constructor
+using System;  
+using System.Reflection;  
+public class ReflectionExample  
+{  
+    public static void Main()  
+    {  
+        Type t = typeof(System.String);  
+          
+        Console.WriteLine("Constructors of {0} type...", t);  
+        ConstructorInfo[] ci = t.GetConstructors(BindingFlags.Public | BindingFlags.Instance);  
+        foreach (ConstructorInfo c in ci)  
+        {  
+            Console.WriteLine(c);  
+        }  
+    }  
+}
+======================================================================  
+4.Create code at runtime with Reflection in .NET C# : Methods
+using System;
+using System.Reflection;
+public class Method
+{
+    public static void Main()
+    {
+        Type t = typeof(System.String);
+
+        Console.WriteLine("Methods of {0} type...", t);
+        MethodInfo[] ci = t.GetMethods(BindingFlags.Public | BindingFlags.Instance);
+        foreach (MethodInfo m in ci)
+        {
+            Console.WriteLine(m);
+        }
+    }
+}
+==================================26==7==22====================================== 
+
+https://www.tutlane.com/tutorial/aspnet-mvc/ado-net-crud-operations-insert-update-delete-in-asp-net-mvc-4-example
+ 
+
+
